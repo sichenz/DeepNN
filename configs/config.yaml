@@ -1,0 +1,171 @@
+# Gabel and Timoshenko (2021), "Product Choice with Large Assortments: A Scalable Deep-Learning Model." Management Science, Forthcoming
+
+# CONFIG SYNTHETIC DATA
+
+# general setup
+path_data: $HOME/dnn-paper/final
+path_results: $HOME/dnn-paper
+global_seed: 501
+n_cores:
+  lightgbm: 20
+  lightgbm-cat: 20
+  mxl: 20
+use_gpu: false
+
+
+# BOOTSTRAP config
+bootstrap:
+  n_data_sets: 3  # paper: 30
+  params:
+    epoch: 99
+    overwrite:
+    model: model_010
+
+
+# SIMULATION config
+simulated_data:
+  config-05:
+    path_data: $HOME/dnn-paper/final
+    seed: 501
+    I: 1_000 # paper: 100_000
+    T: 100 # paper: 100 (paper ignores first 30 periods - effectively, burn_in = 130)
+    file_data_c: "./configs/data_250_c_v3.csv"
+    file_data_j: "./configs/data_250_j_v3.csv"
+    burn_in: 10 # paper: 100
+    n_coupons: 5
+    discounts: [0.10, 0.15, 0.20, 0.25, 0.30, 0.35, 0.40]
+    gamma_c_inv_mu: 0.6
+    gamma_c_inv_sigma: 0.05
+    mu_ps: 0.8
+    sigma_ps: 0.06
+    cons_c_min: 0.1
+    cons_c_max: 1.4
+    mu_gamma_p: 2.5
+    sigma_gamma_p: 0.1
+    cp_type: sign-log-normal
+    delta_cp: 1.4
+    sigma_cp: 0.1
+    prob_cp: 0.1
+    own_price_method: probability
+
+
+# general
+training:
+  avg_windows: [1, 3, 5, 15, 30]
+  time_first: 60
+  time_last: 89
+  history_length: 30
+  full_history_pf: True
+
+
+# word2vec - data.word2vec.py
+w2v:
+  sg: 1
+  hs: 0
+  size: 30
+  window: 100_000
+  min_count: 0
+  sample: 0.0
+  negative: 20
+  iter: 5
+  alpha: 0.025
+  min_alpha: 0.0001
+  batch_words: 10_000
+
+tsne:
+  n_components: 2
+  angle: 0.5
+  n_iter: 5_000
+  perplexity: 4
+  init: pca
+  random_state: 501
+  n_jobs: 8
+  verbose: 0
+
+
+# baselines
+logit: # used in, e.g., logit-cross-by-j.py
+  I_train: 8_000
+
+lightgbm: # used in, e.g., lightgbm-cross-by-j.py
+  I_train: 100_000
+
+mxl: # used in, e.g., mxl.R
+  R: 80  # paper 50000
+  keep: 20
+
+
+# benchmarking – used in, e.g., build_prediction_master
+test_set:
+  I: 100  # paper 2_000
+  t_start: 90
+  t_end: 99
+
+
+# coupon simulation - used in, e.g., uplift_true.py
+coupons:
+  dir_results: prob_uplift
+  J: 250
+  I: 100  # paper 1_000
+  discount: 0.3
+  experiment: model_005
+  epoch: 99
+  t0: 100
+  models: [
+    "true",
+    uniform,
+    random,
+    logit_cross_by_j,
+    lightgbm_cross_by_j,
+    lightgbm_cat_cross_by_j,
+    mxl_inv,
+    dnn_model_010
+  ]
+
+
+# model benchmarking
+model-benchmarking:
+  files:
+    DNN:                     model_010/predicted_probabilities_00000099.parquet
+    MXL:                     baselines/MXL_inventory.parquet
+    LightGBM_Cat_Cross_ByJ:  baselines/LightGBM_Cat_Cross_ByJ.parquet
+    LightGBM_Cross_ByJ:      baselines/LightGBM_Cross_ByJ.parquet
+    BinaryLogit_Cross_ByJ:   baselines/BinaryLogit_Cross_ByJ.parquet
+
+
+# OTHER
+#
+figure_2:
+  rc:
+    font.family: FreeSerif
+    xtick.labelsize: 9
+    ytick.labelsize: 9
+    axes.labelsize: 11
+    axes.titlesize: 13
+    legend.fontsize: 13
+
+figure_3:
+  rc:
+    font.family: FreeSerif
+    xtick.labelsize: 11
+    ytick.labelsize: 11
+    axes.labelsize: 13
+
+inventory:
+  I: 5_000
+  categories: [0, 4, 3]
+  inventory_values: [0, 1, 3, 5]
+  rc:
+    font.family: FreeSerif
+    xtick.labelsize: 11
+    ytick.labelsize: 11
+    axes.titlesize: 13
+    axes.labelsize: 13
+
+loss_curves:
+  model: model_010
+  suffix: ""
+  epoch: 10
+  time_first: 90
+  time_last: 99
+  I: 2_000

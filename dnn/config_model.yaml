@@ -1,0 +1,26 @@
+# Gabel and Timoshenko (2021), "Product Choice with Large Assortments: A Scalable Deep-Learning Model." Management Science, Forthcoming
+
+trainer:
+  path: # added in train.py
+  n_batch_print_loss: 100
+  n_epoch_save_results: 1
+  n_epoch_save_model: 10
+  l1_lambda:
+  l1_variables:
+  l2_lambda:
+  l2_variables:
+
+train-log: {}
+
+model: "model_010"
+experiment_suffix: ""
+
+params:
+  K: 15
+  L: 30
+  epsilon: 1.E-3
+
+# load specific weights from file (optional)
+pretrained_weights:
+
+freeze_weights:

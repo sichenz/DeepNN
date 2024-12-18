@@ -1,0 +1,21 @@
+# Gabel and Timoshenko (2021), "Product Choice with Large Assortments: A Scalable Deep-Learning Model." Management Science, Forthcoming
+
+# CONFIG EMPIRICAL APPLICATION
+
+# general setup
+path_data_raw: $HOME/dnn-paper/data/empirical_raw
+path_data: $HOME/dnn-paper/data/empirical_refined-15
+path_results: $HOME/dnn-paper/empirical
+
+global_seed: 501
+
+
+# training
+training:
+  L: 50
+  avg_windows: [1, 3, 5, 15, 30]
+  time_first: 40
+  time_last: 79
+  t_test_start: 80
+  t_test_end: 89
+  history_length: 30
