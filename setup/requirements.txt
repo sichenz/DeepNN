@@ -10,6 +10,7 @@ papermill
 plotly
 pyarrow
 PyYAML
+rpy2
 scipy
 seaborn
 scikit-learn

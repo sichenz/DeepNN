@@ -5,16 +5,13 @@ DeepNN is a deep learning framework designed for Professor Xiao Liu's class. Thi
 ## Table of Contents
 
 - [Prerequisites](#prerequisites)
-- [Setup Instructions](#setup-instructions)
-  - [1. Install Anaconda](#1-install-anaconda)
-  - [2. Create and Activate a Virtual Environment](#2-create-and-activate-a-virtual-environment)
-  - [3. Install R Data.Table Package](#3-install-r-datatable-package)
+- [Create and Activate a Virtual Environment](#create-and-activate-a-virtual-environment)
 - [Clone the Repository](#clone-the-repository)
 - [Install Necessary Python Packages](#install-necessary-python-packages)
 - [Run the Pipeline](#run-the-pipeline)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#contributing)
-- [License](#license)
+  - [Update and Run the `run.sh` Script](#update-and-run-the-runsh-script)
+  - [Alternative: Run the `pipeline.sh` Script](#alternative-run-the-pipelinesh-script)
+- [Re-run the Program](#re-run-the-program)
 
 ## Prerequisites
 
@@ -25,11 +22,9 @@ Before you begin, ensure you have the following installed on your system:
 - [Python 3.8](https://www.python.org/downloads/release/python-380/)
 - [R](https://www.r-project.org/) (required for the `r-data.table` package)
 
-## Setup Instructions
+- **Note:** Please make sure that these are updated to the newest version
 
-Follow these steps to set up DeepNN on your machine.
-
-### Create and Activate a Virtual Environment
+## Create and Activate a Virtual Environment
 
 1. **Open your terminal or command prompt.**
 
@@ -44,13 +39,6 @@ Follow these steps to set up DeepNN on your machine.
    ```bash
    conda activate deepnn
    ```
-
-4. **Install `r-data.table` using Conda:**
-
-   ```bash
-   conda install -c conda-forge r-data.table
-   ```
-
 
 ## Clone the Repository
 
@@ -80,7 +68,7 @@ Follow these steps to set up DeepNN on your machine.
    pip install --upgrade pip setuptools wheel
    ```
 
-2. **Run the setup script to install additional dependencies:**
+2. **Run the setup script to install libraries:**
 
    ```bash
    bash setup/run_setup.sh
@@ -92,9 +80,17 @@ Follow these steps to set up DeepNN on your machine.
      chmod +x setup/run_setup.sh
      ```
 
+3. **Run the setup script to install R packages:**
+
+   ```bash
+   Rscript setup/setup_packages.R
+   ```
+
 ## Run the Pipeline
 
-1. **Open the `pipeline.sh` script in a text editor or on VSCode**
+### Update and Run the `run.sh` Script
+
+1. **Open the `run.sh` script in a text editor or on VSCode.**
 
 2. **Locate the `cd` command in the script and update it to point to the absolute path of your cloned `DeepNN` repository.**
 
@@ -104,26 +100,37 @@ Follow these steps to set up DeepNN on your machine.
      cd /Users/yourusername/path/to/DeepNN
      ```
 
-3. **Save and close the `pipeline.sh` script.**
+3. **Save and close the `run.sh` script.**
 
-4. **Make sure the `pipeline.sh` script has execute permissions:**
-
-   ```bash
-   chmod +x pipeline.sh
-   ```
-
-5. **Run the pipeline script:**
+4. **Make sure the `run.sh` script has execute permissions:**
 
    ```bash
-   bash pipeline.sh
+   chmod +x run.sh
    ```
+
+5. **Run the pipeline script to generate log script for data retrieval:**
+
+   ```bash
+   ./run.sh
+   ```
+
+  - **WARNING:** The code will take around TWO HOURS to run - THIS IS NORMAL!
+
+### Alternative: Run the `pipeline.sh` Script
+
+- **Note:** The original pipeline process from the paper is in `pipeline.sh`. Feel free to run that script, but it won't generate a comprehensive log. The steps are the exact same as above except you use the following command when running the program:
+
+  ```bash
+  bash pipeline.sh > bash.log
+  ```
 
 ## Re-run the Program
 
 If you want to rerun the DeepNN program, you need to remove specific directories to reset the simulated data that you generated. Use the following commands:
-   ```bash
-   rm -rf ~/dnn-paper/final_000
-   rm -rf ~/dnn-paper/final_001
-   rm -rf ~/dnn-paper/final_002
-   rm -rf ~/dnn-paper/paper
-   `````
+
+```bash
+rm -rf ~/dnn-paper/final_000
+rm -rf ~/dnn-paper/final_001
+rm -rf ~/dnn-paper/final_002
+rm -rf ~/dnn-paper/paper
+```

@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 
 from loguru import logger
+from collections import OrderedDict
 
 import modules.trainer
 
@@ -42,9 +43,12 @@ def time_correlation(x, variable1, variable2, index_variables=["i", "j"], eps=1e
         temp_matrix = temp_matrix - temp_matrix.mean(axis=1)[:, np.newaxis]
         return temp_matrix, sums, temp_df
 
-    # turn data from long format (df) into wide format (matrix, each row is user-product
-    # time series) normalize data
-    xsub = x[set(index_variables + ["t", variable1, variable2])].copy()
+    # Ensure unique and ordered columns
+    def unique_preserve_order(seq):
+        return list(OrderedDict.fromkeys(seq))
+
+    columns = unique_preserve_order(index_variables + ["t", variable1, variable2])
+    xsub = x[columns].copy()
     xsub["p"] = xsub["p"].values + np.random.uniform(0, eps, xsub.shape[0])
     xsub[variable2] = xsub[variable2].values + np.random.uniform(0, eps, xsub.shape[0])
     matrix_variable1, sums1, temp_df1 = get_matrix_variable(
@@ -54,15 +58,13 @@ def time_correlation(x, variable1, variable2, index_variables=["i", "j"], eps=1e
         xsub, variable2, index_variables
     )
 
-    # manually compute correlation and covariance coefficients (for each user-product
+    # Manually compute correlation and covariance coefficients (for each user-product
     # combination)
     cor_denom = (
         matrix_variable2.shape[1]
         * matrix_variable1.std(axis=1)
         * matrix_variable2.std(axis=1)
     )
-    # covs = (matrix_variable1 * matrix_variable2).sum(axis=1) /
-    # (matrix_variable2.shape[1] - 1) mean_cov = np.mean(covs)
     cors = (matrix_variable1 * matrix_variable2).sum(axis=1) / cor_denom
     mean_cor = np.mean(cors)
 

@@ -8,11 +8,13 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-import matplotlib.font_manager
+import matplotlib
 
 import modules.args
 import modules.lib
 
+matplotlib.rcParams['font.family'] = 'Iowan Old Style'
+sns.set(font="DejaVu Sans")
 
 if __name__ == "__main__":
 
@@ -33,9 +35,14 @@ if __name__ == "__main__":
     sd = torch.load(
         f"{path_data}/model_010/results/state_dict_{epoch:08d}.pt",
         map_location=torch.device("cpu"),
+        weights_only=True
     )
 
     plt.rcParams.update(**config["figure_3"]["rc"])
+    
+    # Set font after updating rcParams and Seaborn settings
+    matplotlib.rcParams['font.family'] = 'Iowan Old Style'
+    sns.set(font="Iowan Old Style")
 
     for var in ["w_conv_j", "w_conv_j_d"]:
 

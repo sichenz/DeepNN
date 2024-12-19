@@ -206,9 +206,7 @@ def main(x, emb, path_data, **kwargs):
             experiment_tracker["model_parameters"],
             train_set=lgbm_data_train,
             num_boost_round=500,
-            valid_sets=[lgbm_data_train, lgbm_data_validation],
-            early_stopping_rounds=10,
-            verbose_eval=False,
+            valid_sets=[lgbm_data_train, lgbm_data_validation]
         )
         prediction_jx["phat"] = bst.predict(X_test)
         gc.collect()

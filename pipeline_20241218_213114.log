@@ -1,0 +1,740 @@
+[2024-12-18 21:31:14] Running: python -m data.simulated-data -d config-05 -c configs/config.yaml -l bootstrap
+2024-12-18 21:31:14.836 | INFO     | __main__:main:29 - parameter_set=config-05
+2024-12-18 21:31:14.841 | INFO     | __main__:main:34 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:31:14.842 | INFO     | __main__:main:43 - seed=501
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - mu_ps = 0.8
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - sigma_ps = 0.06
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - cons_c_min = 0.1
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - cons_c_max = 1.4
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - gamma_c_inv_mu = 0.6
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - gamma_c_inv_sigma = 0.05
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - mu_gamma_p = 2.5
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - sigma_gamma_p = 0.1
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - prob_cp = 0.1
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - delta_cp = 1.4
+2024-12-18 21:31:14.842 | INFO     | __main__:main:68 - own_price_method = probability
+2024-12-18 21:31:14.845 | INFO     | __main__:main:106 - J = 250
+2024-12-18 21:31:14.845 | INFO     | __main__:main:107 - C = 25
+2024-12-18 21:31:14.845 | INFO     | __main__:main:110 - create coupons (random agent)
+2024-12-18 21:31:15.014 | INFO     | __main__:main:140 - fraction_discounts = 1
+2024-12-18 21:31:15.014 | INFO     | __main__:main:148 - n(burnin coupons) = 50,000
+2024-12-18 21:31:15.014 | INFO     | __main__:main:152 - n(coupons) = 500,000
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - I = 1,000
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - J = 250
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - C = 25
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - n_weeks_burnin = 10
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - n_coupons_burnin = 50,000
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - keeping burnin data
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - build data_i
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - add w_i_cons to data_i
+2024-12-18 21:31:15.014 | INFO     | modules.simulation:_log:974 - build W_i
+2024-12-18 21:31:15.017 | INFO     | modules.simulation:_log:974 - build data_beta_i_p
+2024-12-18 21:31:15.018 | INFO     | modules.simulation:_log:974 - add cons_c to data_c
+2024-12-18 21:31:15.018 | INFO     | modules.simulation:_log:974 - add gamma_c to data_c
+2024-12-18 21:31:15.018 | INFO     | modules.simulation:_log:974 - add p_c to data_c
+2024-12-18 21:31:15.018 | INFO     | modules.simulation:_log:974 - add gamma_c_inv to data_c
+2024-12-18 21:31:15.025 | INFO     | modules.simulation:_log:974 - build cons_ic
+2024-12-18 21:31:15.031 | INFO     | modules.simulation:_log:974 - build Gamma_c
+2024-12-18 21:31:15.032 | INFO     | modules.simulation:_log:974 - build gamma_ic
+2024-12-18 21:31:15.034 | INFO     | modules.simulation:_log:974 - build gamma_ic_p
+2024-12-18 21:31:15.092 | INFO     | modules.simulation:_log:974 - build Beta_c
+2024-12-18 21:31:15.093 | INFO     | modules.simulation:_log:974 - build beta_ijc
+2024-12-18 21:31:15.360 | INFO     | modules.simulation:_log:974 - setup done
+2024-12-18 21:31:15.361 | INFO     | modules.simulation:_log:974 - start burnin
+2024-12-18 21:31:15.361 | INFO     | modules.simulation:_log:974 - initialize data (burn in)
+2024-12-18 21:31:15.524 | INFO     | modules.simulation:_log:974 - burn in done
+2024-12-18 21:31:15.525 | INFO     | __main__:main:190 - gym init done
+2024-12-18 21:31:16.766 | INFO     | __main__:main:201 - gym.generate done
+2024-12-18 21:31:16.766 | INFO     | __main__:main:204 - save data
+2024-12-18 21:31:17.454 | INFO     | __main__:main:228 - data saved
+2024-12-18 21:31:17.454 | INFO     | __main__:main:230 - □
+2024-12-18 21:31:17.461 | INFO     | __main__:main:29 - parameter_set=config-05
+2024-12-18 21:31:17.467 | INFO     | __main__:main:34 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:31:17.467 | INFO     | __main__:main:43 - seed=502
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - mu_ps = 0.8
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - sigma_ps = 0.06
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - cons_c_min = 0.1
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - cons_c_max = 1.4
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - gamma_c_inv_mu = 0.6
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - gamma_c_inv_sigma = 0.05
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - mu_gamma_p = 2.5
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - sigma_gamma_p = 0.1
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - prob_cp = 0.1
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - delta_cp = 1.4
+2024-12-18 21:31:17.467 | INFO     | __main__:main:68 - own_price_method = probability
+2024-12-18 21:31:17.469 | INFO     | __main__:main:106 - J = 250
+2024-12-18 21:31:17.469 | INFO     | __main__:main:107 - C = 25
+2024-12-18 21:31:17.469 | INFO     | __main__:main:110 - create coupons (random agent)
+2024-12-18 21:31:17.641 | INFO     | __main__:main:140 - fraction_discounts = 1
+2024-12-18 21:31:17.641 | INFO     | __main__:main:148 - n(burnin coupons) = 50,000
+2024-12-18 21:31:17.641 | INFO     | __main__:main:152 - n(coupons) = 500,000
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - I = 1,000
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - J = 250
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - C = 25
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - n_weeks_burnin = 10
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - n_coupons_burnin = 50,000
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - keeping burnin data
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - build data_i
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - add w_i_cons to data_i
+2024-12-18 21:31:17.641 | INFO     | modules.simulation:_log:974 - build W_i
+2024-12-18 21:31:17.642 | INFO     | modules.simulation:_log:974 - build data_beta_i_p
+2024-12-18 21:31:17.642 | INFO     | modules.simulation:_log:974 - add cons_c to data_c
+2024-12-18 21:31:17.642 | INFO     | modules.simulation:_log:974 - add gamma_c to data_c
+2024-12-18 21:31:17.642 | INFO     | modules.simulation:_log:974 - add p_c to data_c
+2024-12-18 21:31:17.642 | INFO     | modules.simulation:_log:974 - add gamma_c_inv to data_c
+2024-12-18 21:31:17.647 | INFO     | modules.simulation:_log:974 - build cons_ic
+2024-12-18 21:31:17.652 | INFO     | modules.simulation:_log:974 - build Gamma_c
+2024-12-18 21:31:17.657 | INFO     | modules.simulation:_log:974 - build gamma_ic
+2024-12-18 21:31:17.662 | INFO     | modules.simulation:_log:974 - build gamma_ic_p
+2024-12-18 21:31:17.733 | INFO     | modules.simulation:_log:974 - build Beta_c
+2024-12-18 21:31:17.734 | INFO     | modules.simulation:_log:974 - build beta_ijc
+2024-12-18 21:31:18.035 | INFO     | modules.simulation:_log:974 - setup done
+2024-12-18 21:31:18.035 | INFO     | modules.simulation:_log:974 - start burnin
+2024-12-18 21:31:18.035 | INFO     | modules.simulation:_log:974 - initialize data (burn in)
+2024-12-18 21:31:18.207 | INFO     | modules.simulation:_log:974 - burn in done
+2024-12-18 21:31:18.209 | INFO     | __main__:main:190 - gym init done
+2024-12-18 21:31:19.490 | INFO     | __main__:main:201 - gym.generate done
+2024-12-18 21:31:19.490 | INFO     | __main__:main:204 - save data
+2024-12-18 21:31:20.159 | INFO     | __main__:main:228 - data saved
+2024-12-18 21:31:20.159 | INFO     | __main__:main:230 - □
+2024-12-18 21:31:20.167 | INFO     | __main__:main:29 - parameter_set=config-05
+2024-12-18 21:31:20.173 | INFO     | __main__:main:34 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:31:20.173 | INFO     | __main__:main:43 - seed=503
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - mu_ps = 0.8
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - sigma_ps = 0.06
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - cons_c_min = 0.1
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - cons_c_max = 1.4
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - gamma_c_inv_mu = 0.6
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - gamma_c_inv_sigma = 0.05
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - mu_gamma_p = 2.5
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - sigma_gamma_p = 0.1
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - prob_cp = 0.1
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - delta_cp = 1.4
+2024-12-18 21:31:20.173 | INFO     | __main__:main:68 - own_price_method = probability
+2024-12-18 21:31:20.175 | INFO     | __main__:main:106 - J = 250
+2024-12-18 21:31:20.175 | INFO     | __main__:main:107 - C = 25
+2024-12-18 21:31:20.175 | INFO     | __main__:main:110 - create coupons (random agent)
+2024-12-18 21:31:20.344 | INFO     | __main__:main:140 - fraction_discounts = 1
+2024-12-18 21:31:20.344 | INFO     | __main__:main:148 - n(burnin coupons) = 50,000
+2024-12-18 21:31:20.344 | INFO     | __main__:main:152 - n(coupons) = 500,000
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - I = 1,000
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - J = 250
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - C = 25
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - n_weeks_burnin = 10
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - n_coupons_burnin = 50,000
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - keeping burnin data
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - build data_i
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - add w_i_cons to data_i
+2024-12-18 21:31:20.344 | INFO     | modules.simulation:_log:974 - build W_i
+2024-12-18 21:31:20.345 | INFO     | modules.simulation:_log:974 - build data_beta_i_p
+2024-12-18 21:31:20.345 | INFO     | modules.simulation:_log:974 - add cons_c to data_c
+2024-12-18 21:31:20.345 | INFO     | modules.simulation:_log:974 - add gamma_c to data_c
+2024-12-18 21:31:20.345 | INFO     | modules.simulation:_log:974 - add p_c to data_c
+2024-12-18 21:31:20.345 | INFO     | modules.simulation:_log:974 - add gamma_c_inv to data_c
+2024-12-18 21:31:20.351 | INFO     | modules.simulation:_log:974 - build cons_ic
+2024-12-18 21:31:20.363 | INFO     | modules.simulation:_log:974 - build Gamma_c
+2024-12-18 21:31:20.365 | INFO     | modules.simulation:_log:974 - build gamma_ic
+2024-12-18 21:31:20.369 | INFO     | modules.simulation:_log:974 - build gamma_ic_p
+2024-12-18 21:31:20.453 | INFO     | modules.simulation:_log:974 - build Beta_c
+2024-12-18 21:31:20.457 | INFO     | modules.simulation:_log:974 - build beta_ijc
+2024-12-18 21:31:20.744 | INFO     | modules.simulation:_log:974 - setup done
+2024-12-18 21:31:20.744 | INFO     | modules.simulation:_log:974 - start burnin
+2024-12-18 21:31:20.744 | INFO     | modules.simulation:_log:974 - initialize data (burn in)
+2024-12-18 21:31:20.904 | INFO     | modules.simulation:_log:974 - burn in done
+2024-12-18 21:31:20.905 | INFO     | __main__:main:190 - gym init done
+2024-12-18 21:31:22.075 | INFO     | __main__:main:201 - gym.generate done
+2024-12-18 21:31:22.075 | INFO     | __main__:main:204 - save data
+2024-12-18 21:31:22.736 | INFO     | __main__:main:228 - data saved
+2024-12-18 21:31:22.736 | INFO     | __main__:main:230 - □
+[2024-12-18 21:31:22] Running: python -m data.build-prediction-master -c configs/config.yaml -l bootstrap
+2024-12-18 21:31:23.389 | INFO     | __main__:main:53 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:31:23.471 | INFO     | __main__:extract_data_from_gym:16 - recreate gym state
+2024-12-18 21:31:23.782 | INFO     | __main__:extract_data_from_gym:19 - rerun 10 weeks [90, 99]
+2024-12-18 21:31:24.456 | INFO     | __main__:main:85 - test output
+2024-12-18 21:31:24.458 | INFO     | __main__:main:96 - build prediction master
+2024-12-18 21:31:24.568 | INFO     | __main__:main:127 - □
+2024-12-18 21:31:24.577 | INFO     | __main__:main:53 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:31:24.645 | INFO     | __main__:extract_data_from_gym:16 - recreate gym state
+2024-12-18 21:31:24.985 | INFO     | __main__:extract_data_from_gym:19 - rerun 10 weeks [90, 99]
+2024-12-18 21:31:25.618 | INFO     | __main__:main:85 - test output
+2024-12-18 21:31:25.620 | INFO     | __main__:main:96 - build prediction master
+2024-12-18 21:31:25.704 | INFO     | __main__:main:127 - □
+2024-12-18 21:31:25.715 | INFO     | __main__:main:53 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:31:25.781 | INFO     | __main__:extract_data_from_gym:16 - recreate gym state
+2024-12-18 21:31:26.098 | INFO     | __main__:extract_data_from_gym:19 - rerun 10 weeks [90, 99]
+2024-12-18 21:31:26.720 | INFO     | __main__:main:85 - test output
+2024-12-18 21:31:26.723 | INFO     | __main__:main:96 - build prediction master
+2024-12-18 21:31:26.815 | INFO     | __main__:main:127 - □
+[2024-12-18 21:31:26] Running: python -m data.word2vec -c configs/config.yaml -l bootstrap
+2024-12-18 21:31:27.739 | INFO     | __main__:main:351 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:31:28.281 | INFO     | __main__:main:391 - n_train_samples=79,898
+2024-12-18 21:31:28.281 | INFO     | __main__:main:392 - n_validation_samples=20,000
+2024-12-18 21:31:28.281 | INFO     | __main__:main:393 - n_test_samples=20,000
+2024-12-18 21:31:37.159 | INFO     | __main__:_log:168 - build context center pairs
+2024-12-18 21:31:45.936 | INFO     | __main__:_log:168 - epoch callback -- 0
+2024-12-18 21:31:48.236 | INFO     | __main__:_log:168 - epoch callback -- 1
+2024-12-18 21:31:50.349 | INFO     | __main__:_log:168 - epoch callback -- 2
+2024-12-18 21:31:52.455 | INFO     | __main__:_log:168 - epoch callback -- 3
+2024-12-18 21:31:54.532 | INFO     | __main__:_log:168 - epoch callback -- 4
+2024-12-18 21:31:56.602 | INFO     | __main__:main:427 - plot dW and loss
+2024-12-18 21:31:56.878 | INFO     | __main__:main:441 - plot heatmap
+2024-12-18 21:31:57.158 | INFO     | __main__:main:460 - save results
+2024-12-18 21:31:57.166 | INFO     | __main__:main:471 - □
+2024-12-18 21:31:57.202 | INFO     | __main__:main:351 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:31:57.749 | INFO     | __main__:main:391 - n_train_samples=79,976
+2024-12-18 21:31:57.749 | INFO     | __main__:main:392 - n_validation_samples=20,000
+2024-12-18 21:31:57.749 | INFO     | __main__:main:393 - n_test_samples=20,000
+2024-12-18 21:32:06.915 | INFO     | __main__:_log:168 - build context center pairs
+2024-12-18 21:32:16.161 | INFO     | __main__:_log:168 - epoch callback -- 0
+2024-12-18 21:32:18.836 | INFO     | __main__:_log:168 - epoch callback -- 1
+2024-12-18 21:32:21.335 | INFO     | __main__:_log:168 - epoch callback -- 2
+2024-12-18 21:32:24.990 | INFO     | __main__:_log:168 - epoch callback -- 3
+2024-12-18 21:32:27.471 | INFO     | __main__:_log:168 - epoch callback -- 4
+2024-12-18 21:32:29.968 | INFO     | __main__:main:427 - plot dW and loss
+2024-12-18 21:32:30.144 | INFO     | __main__:main:441 - plot heatmap
+2024-12-18 21:32:30.367 | INFO     | __main__:main:460 - save results
+2024-12-18 21:32:30.375 | INFO     | __main__:main:471 - □
+2024-12-18 21:32:30.414 | INFO     | __main__:main:351 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:32:30.993 | INFO     | __main__:main:391 - n_train_samples=79,992
+2024-12-18 21:32:30.993 | INFO     | __main__:main:392 - n_validation_samples=20,000
+2024-12-18 21:32:30.993 | INFO     | __main__:main:393 - n_test_samples=20,000
+2024-12-18 21:32:40.439 | INFO     | __main__:_log:168 - build context center pairs
+2024-12-18 21:32:49.932 | INFO     | __main__:_log:168 - epoch callback -- 0
+2024-12-18 21:32:55.492 | INFO     | __main__:_log:168 - epoch callback -- 1
+2024-12-18 21:32:59.523 | INFO     | __main__:_log:168 - epoch callback -- 2
+2024-12-18 21:33:02.423 | INFO     | __main__:_log:168 - epoch callback -- 3
+2024-12-18 21:33:06.259 | INFO     | __main__:_log:168 - epoch callback -- 4
+2024-12-18 21:33:09.486 | INFO     | __main__:main:427 - plot dW and loss
+2024-12-18 21:33:09.675 | INFO     | __main__:main:441 - plot heatmap
+2024-12-18 21:33:09.897 | INFO     | __main__:main:460 - save results
+2024-12-18 21:33:09.906 | INFO     | __main__:main:471 - □
+[2024-12-18 21:33:10] Running: python -m uplift.true -c configs/config.yaml -l bootstrap
+2024-12-18 21:33:10.764 | INFO     | __main__:main:18 - Discount simulation `true`
+2024-12-18 21:33:10.770 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:33:10.770 | INFO     | __main__:main:28 - I=100
+2024-12-18 21:33:10.770 | INFO     | __main__:main:29 - discount=0.3
+2024-12-18 21:33:10.797 | INFO     | __main__:main:46 - J=250
+2024-12-18 21:33:10.797 | INFO     | __main__:main:49 - load gym
+2024-12-18 21:33:10.863 | INFO     | __main__:main:51 - recreate gym state
+2024-12-18 21:33:11.178 | INFO     | __main__:main:66 - simulate (true) uplift
+2024-12-18 21:33:14.009 | INFO     | __main__:main:119 - □
+2024-12-18 21:33:14.052 | INFO     | __main__:main:18 - Discount simulation `true`
+2024-12-18 21:33:14.058 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:33:14.058 | INFO     | __main__:main:28 - I=100
+2024-12-18 21:33:14.058 | INFO     | __main__:main:29 - discount=0.3
+2024-12-18 21:33:14.067 | INFO     | __main__:main:46 - J=250
+2024-12-18 21:33:14.067 | INFO     | __main__:main:49 - load gym
+2024-12-18 21:33:14.127 | INFO     | __main__:main:51 - recreate gym state
+2024-12-18 21:33:14.650 | INFO     | __main__:main:66 - simulate (true) uplift
+2024-12-18 21:33:17.432 | INFO     | __main__:main:119 - □
+2024-12-18 21:33:17.477 | INFO     | __main__:main:18 - Discount simulation `true`
+2024-12-18 21:33:17.483 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:33:17.483 | INFO     | __main__:main:28 - I=100
+2024-12-18 21:33:17.483 | INFO     | __main__:main:29 - discount=0.3
+2024-12-18 21:33:17.492 | INFO     | __main__:main:46 - J=250
+2024-12-18 21:33:17.492 | INFO     | __main__:main:49 - load gym
+2024-12-18 21:33:17.552 | INFO     | __main__:main:51 - recreate gym state
+2024-12-18 21:33:18.033 | INFO     | __main__:main:66 - simulate (true) uplift
+2024-12-18 21:33:20.809 | INFO     | __main__:main:119 - □
+[2024-12-18 21:33:20] Running: python -m baselines.frequency -c configs/config.yaml -l bootstrap
+2024-12-18 21:33:21.484 | INFO     | __main__:main:38 - Baseline `frequency`
+2024-12-18 21:33:21.490 | INFO     | __main__:main:43 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:33:21.708 | INFO     | __main__:main:72 - □
+2024-12-18 21:33:21.710 | INFO     | __main__:main:38 - Baseline `frequency`
+2024-12-18 21:33:21.716 | INFO     | __main__:main:43 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:33:21.900 | INFO     | __main__:main:72 - □
+2024-12-18 21:33:21.902 | INFO     | __main__:main:38 - Baseline `frequency`
+2024-12-18 21:33:21.908 | INFO     | __main__:main:43 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:33:22.104 | INFO     | __main__:main:72 - □
+[2024-12-18 21:33:22] Running: python -m baselines.logit-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 21:33:22.929 | INFO     | __main__:main:19 - Baseline `logit-cross by j`
+2024-12-18 21:33:22.936 | INFO     | __main__:main:24 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:33:22.987 | INFO     | __main__:main:53 - I_train=1,000
+2024-12-18 21:33:22.987 | INFO     | __main__:main:56 - setup streamer
+2024-12-18 21:33:23.101 | INFO     | __main__:main:102 - number of training samples = 7,500,000
+2024-12-18 21:33:23.102 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:33:27.208 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:33:27.458 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:33:27.701 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:33:27.724 | INFO     | __main__:main:154 - train/predict by product
+2024-12-18 21:33:58.664 | INFO     | __main__:main:201 - auc(test)=0.9382
+2024-12-18 21:33:58.664 | INFO     | __main__:main:202 - loss(test)=0.082556
+2024-12-18 21:33:58.664 | INFO     | __main__:main:205 - save model and predictions
+2024-12-18 21:34:02.063 | INFO     | __main__:main:213 - □
+2024-12-18 21:34:02.093 | INFO     | __main__:main:19 - Baseline `logit-cross by j`
+2024-12-18 21:34:02.100 | INFO     | __main__:main:24 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:34:02.140 | INFO     | __main__:main:53 - I_train=1,000
+2024-12-18 21:34:02.140 | INFO     | __main__:main:56 - setup streamer
+2024-12-18 21:34:02.237 | INFO     | __main__:main:102 - number of training samples = 7,500,000
+2024-12-18 21:34:02.237 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:34:04.881 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:34:05.062 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:34:05.127 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:34:05.145 | INFO     | __main__:main:154 - train/predict by product
+2024-12-18 21:34:41.148 | INFO     | __main__:main:201 - auc(test)=0.9387
+2024-12-18 21:34:41.149 | INFO     | __main__:main:202 - loss(test)=0.086823
+2024-12-18 21:34:41.149 | INFO     | __main__:main:205 - save model and predictions
+2024-12-18 21:34:44.826 | INFO     | __main__:main:213 - □
+2024-12-18 21:34:44.858 | INFO     | __main__:main:19 - Baseline `logit-cross by j`
+2024-12-18 21:34:44.865 | INFO     | __main__:main:24 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:34:44.907 | INFO     | __main__:main:53 - I_train=1,000
+2024-12-18 21:34:44.908 | INFO     | __main__:main:56 - setup streamer
+2024-12-18 21:34:45.032 | INFO     | __main__:main:102 - number of training samples = 7,500,000
+2024-12-18 21:34:45.032 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:34:48.307 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:34:48.518 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 21:34:48.598 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+2024-12-18 21:34:48.610 | INFO     | __main__:main:154 - train/predict by product
+2024-12-18 21:35:13.057 | INFO     | __main__:main:201 - auc(test)=0.9360
+2024-12-18 21:35:13.057 | INFO     | __main__:main:202 - loss(test)=0.092765
+2024-12-18 21:35:13.057 | INFO     | __main__:main:205 - save model and predictions
+2024-12-18 21:35:16.552 | INFO     | __main__:main:213 - □
+[2024-12-18 21:35:16] Running: python -m baselines.lightgbm-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 21:35:17.529 | INFO     | __main__:main:22 - Baseline `lightgbm-cross by j`
+2024-12-18 21:35:17.535 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 21:35:17.536 | INFO     | __main__:main:33 - label=LightGBM_Cross_ByJ
+2024-12-18 21:35:17.536 | INFO     | __main__:main:34 - n_cores=20
+2024-12-18 21:35:17.536 | INFO     | __main__:main:44 - embedding=w2v
+2024-12-18 21:35:17.592 | INFO     | __main__:main:70 - I_train=1,000
+2024-12-18 21:35:17.592 | INFO     | __main__:main:73 - setup streamer
+2024-12-18 21:35:17.724 | INFO     | __main__:main:144 - train/predict by product
+2024-12-18 21:46:18.388 | INFO     | __main__:main:245 - auc(test)=0.9425
+2024-12-18 21:46:18.389 | INFO     | __main__:main:246 - loss(test)=0.080900
+2024-12-18 21:46:18.389 | INFO     | __main__:main:249 - save model and predictions
+2024-12-18 21:46:20.376 | INFO     | __main__:main:256 - □
+2024-12-18 21:46:20.496 | INFO     | __main__:main:22 - Baseline `lightgbm-cross by j`
+2024-12-18 21:46:20.503 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 21:46:20.503 | INFO     | __main__:main:33 - label=LightGBM_Cross_ByJ
+2024-12-18 21:46:20.503 | INFO     | __main__:main:34 - n_cores=20
+2024-12-18 21:46:20.503 | INFO     | __main__:main:44 - embedding=w2v
+2024-12-18 21:46:20.583 | INFO     | __main__:main:70 - I_train=1,000
+2024-12-18 21:46:20.583 | INFO     | __main__:main:73 - setup streamer
+2024-12-18 21:46:20.748 | INFO     | __main__:main:144 - train/predict by product
+2024-12-18 21:58:30.302 | INFO     | __main__:main:245 - auc(test)=0.9443
+2024-12-18 21:58:30.303 | INFO     | __main__:main:246 - loss(test)=0.084010
+2024-12-18 21:58:30.303 | INFO     | __main__:main:249 - save model and predictions
+2024-12-18 21:58:32.093 | INFO     | __main__:main:256 - □
+2024-12-18 21:58:32.217 | INFO     | __main__:main:22 - Baseline `lightgbm-cross by j`
+2024-12-18 21:58:32.224 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 21:58:32.224 | INFO     | __main__:main:33 - label=LightGBM_Cross_ByJ
+2024-12-18 21:58:32.224 | INFO     | __main__:main:34 - n_cores=20
+2024-12-18 21:58:32.224 | INFO     | __main__:main:44 - embedding=w2v
+2024-12-18 21:58:32.286 | INFO     | __main__:main:70 - I_train=1,000
+2024-12-18 21:58:32.286 | INFO     | __main__:main:73 - setup streamer
+2024-12-18 21:58:32.483 | INFO     | __main__:main:144 - train/predict by product
+2024-12-18 22:09:49.788 | INFO     | __main__:main:245 - auc(test)=0.9426
+2024-12-18 22:09:49.790 | INFO     | __main__:main:246 - loss(test)=0.089759
+2024-12-18 22:09:49.790 | INFO     | __main__:main:249 - save model and predictions
+2024-12-18 22:09:51.414 | INFO     | __main__:main:256 - □
+[2024-12-18 22:09:52] Running: python -m baselines.lightgbm-cat-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 22:09:53.230 | INFO     | __main__:main:22 - Baseline `lightgbm-cat-cross by j`
+2024-12-18 22:09:53.236 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:09:53.237 | INFO     | __main__:main:31 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 22:09:53.237 | INFO     | __main__:main:32 - n_cores=20
+2024-12-18 22:09:53.237 | INFO     | __main__:main:42 - embedding=w2v
+2024-12-18 22:09:53.307 | INFO     | __main__:main:71 - I_train=1,000
+2024-12-18 22:09:53.307 | INFO     | __main__:main:74 - setup streamer
+2024-12-18 22:09:53.447 | INFO     | __main__:main:145 - train/predict by product
+2024-12-18 22:19:20.659 | INFO     | __main__:main:254 - auc(test)=0.9427
+2024-12-18 22:19:20.659 | INFO     | __main__:main:255 - loss(test)=0.080658
+2024-12-18 22:19:20.659 | INFO     | __main__:main:258 - save model and predictions
+2024-12-18 22:19:22.333 | INFO     | __main__:main:265 - □
+2024-12-18 22:19:22.433 | INFO     | __main__:main:22 - Baseline `lightgbm-cat-cross by j`
+2024-12-18 22:19:22.440 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:19:22.440 | INFO     | __main__:main:31 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 22:19:22.440 | INFO     | __main__:main:32 - n_cores=20
+2024-12-18 22:19:22.440 | INFO     | __main__:main:42 - embedding=w2v
+2024-12-18 22:19:22.482 | INFO     | __main__:main:71 - I_train=1,000
+2024-12-18 22:19:22.482 | INFO     | __main__:main:74 - setup streamer
+2024-12-18 22:19:22.622 | INFO     | __main__:main:145 - train/predict by product
+2024-12-18 22:29:01.858 | INFO     | __main__:main:254 - auc(test)=0.9450
+2024-12-18 22:29:01.859 | INFO     | __main__:main:255 - loss(test)=0.083675
+2024-12-18 22:29:01.859 | INFO     | __main__:main:258 - save model and predictions
+2024-12-18 22:29:03.404 | INFO     | __main__:main:265 - □
+2024-12-18 22:29:03.503 | INFO     | __main__:main:22 - Baseline `lightgbm-cat-cross by j`
+2024-12-18 22:29:03.510 | INFO     | __main__:main:27 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:29:03.510 | INFO     | __main__:main:31 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 22:29:03.510 | INFO     | __main__:main:32 - n_cores=20
+2024-12-18 22:29:03.510 | INFO     | __main__:main:42 - embedding=w2v
+2024-12-18 22:29:03.555 | INFO     | __main__:main:71 - I_train=1,000
+2024-12-18 22:29:03.555 | INFO     | __main__:main:74 - setup streamer
+2024-12-18 22:29:03.672 | INFO     | __main__:main:145 - train/predict by product
+2024-12-18 22:37:10.188 | INFO     | __main__:main:254 - auc(test)=0.9431
+2024-12-18 22:37:10.189 | INFO     | __main__:main:255 - loss(test)=0.089407
+2024-12-18 22:37:10.189 | INFO     | __main__:main:258 - save model and predictions
+2024-12-18 22:37:11.742 | INFO     | __main__:main:265 - □
+[2024-12-18 22:37:12] Running: python -m baselines.run-mxl -c configs/config.yaml -l bootstrap
+2024-12-18 22:37:13.045 | INFO     | __main__:<module>:11 - Baseline `mxl-inventory`
+2024-12-18 22:37:13.053 | INFO     | __main__:<module>:18 - Starting data set 000
+Error in library(data.table) : there is no package called ‘data.table’
+Calls: suppressMessages -> withCallingHandlers -> library
+Execution halted
+2024-12-18 22:37:13.162 | INFO     | __main__:<module>:18 - Starting data set 001
+Error in library(data.table) : there is no package called ‘data.table’
+Calls: suppressMessages -> withCallingHandlers -> library
+Execution halted
+2024-12-18 22:37:13.245 | INFO     | __main__:<module>:18 - Starting data set 002
+Error in library(data.table) : there is no package called ‘data.table’
+Calls: suppressMessages -> withCallingHandlers -> library
+Execution halted
+[2024-12-18 22:37:13] Running: python -m dnn.train -c configs/config.yaml -l bootstrap -p
+2024-12-18 22:37:14.627 | INFO     | __main__:main:43 - Starting model training
+2024-12-18 22:37:14.627 | INFO     | __main__:main:44 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:37:14.628 | INFO     | __main__:main:60 - path_result=/Users/princess/dnn-paper/final_000/model_010
+2024-12-18 22:37:14.628 | INFO     | __main__:main:61 - pickle=False
+2024-12-18 22:37:14.628 | INFO     | __main__:main:62 - model=model_010
+2024-12-18 22:37:14.628 | INFO     | __main__:main:63 - n_epoch=100
+2024-12-18 22:37:14.656 | INFO     | __main__:main:72 - I_train=1,000
+2024-12-18 22:37:14.657 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:37:14.657 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:37:14.657 | INFO     | modules.data_loader:get_data_loader:141 - force creation of validation data_loader
+2024-12-18 22:37:14.657 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:37:14.665 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:37:14.672 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:37:14.737 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:37:14.737 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+/Users/princess/Documents/RA/DeepNN/modules/data_loader.py:22: UserWarning: torch.sparse.SparseTensor(indices, values, shape, *, device=) is deprecated.  Please use torch.sparse_coo_tensor(indices, values, shape, dtype=, device=). (Triggered internally at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/utils/tensor_new.cpp:643.)
+  return torch.sparse.FloatTensor(i, v, torch.Size(shape))
+2024-12-18 22:37:14.796 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:37:14.804 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:37:14.806 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:37:14.806 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:37:14.806 | INFO     | modules.data_loader:get_data_loader:141 - force creation of train data_loader
+2024-12-18 22:37:14.806 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:37:14.814 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:37:14.821 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:37:14.889 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:37:14.889 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+2024-12-18 22:37:16.577 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:37:16.626 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:37:16.995 | INFO     | modules.trainer:train:116 - Training all weights
+2024-12-18 22:38:50.186 | INFO     | __main__:main:214 - □
+2024-12-18 22:38:50.204 | INFO     | __main__:main:43 - Starting model training
+2024-12-18 22:38:50.204 | INFO     | __main__:main:44 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:38:50.205 | INFO     | __main__:main:60 - path_result=/Users/princess/dnn-paper/final_001/model_010
+2024-12-18 22:38:50.205 | INFO     | __main__:main:61 - pickle=False
+2024-12-18 22:38:50.205 | INFO     | __main__:main:62 - model=model_010
+2024-12-18 22:38:50.205 | INFO     | __main__:main:63 - n_epoch=100
+2024-12-18 22:38:50.214 | INFO     | __main__:main:72 - I_train=1,000
+2024-12-18 22:38:50.215 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:38:50.215 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:38:50.216 | INFO     | modules.data_loader:get_data_loader:141 - force creation of validation data_loader
+2024-12-18 22:38:50.216 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:38:50.224 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:38:50.231 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:38:50.298 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:38:50.298 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+2024-12-18 22:38:50.350 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:38:50.353 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:38:50.355 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:38:50.355 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:38:50.355 | INFO     | modules.data_loader:get_data_loader:141 - force creation of train data_loader
+2024-12-18 22:38:50.355 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:38:50.362 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:38:50.370 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:38:50.440 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:38:50.440 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+2024-12-18 22:38:52.161 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:38:52.213 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:38:52.223 | INFO     | modules.trainer:train:116 - Training all weights
+2024-12-18 22:40:27.092 | INFO     | __main__:main:214 - □
+2024-12-18 22:40:27.111 | INFO     | __main__:main:43 - Starting model training
+2024-12-18 22:40:27.111 | INFO     | __main__:main:44 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:40:27.112 | INFO     | __main__:main:60 - path_result=/Users/princess/dnn-paper/final_002/model_010
+2024-12-18 22:40:27.112 | INFO     | __main__:main:61 - pickle=False
+2024-12-18 22:40:27.112 | INFO     | __main__:main:62 - model=model_010
+2024-12-18 22:40:27.112 | INFO     | __main__:main:63 - n_epoch=100
+2024-12-18 22:40:27.122 | INFO     | __main__:main:72 - I_train=1,000
+2024-12-18 22:40:27.124 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:40:27.124 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:40:27.124 | INFO     | modules.data_loader:get_data_loader:141 - force creation of validation data_loader
+2024-12-18 22:40:27.124 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:40:27.134 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:40:27.142 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:40:27.215 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:40:27.215 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+2024-12-18 22:40:27.268 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:40:27.270 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:40:27.272 | INFO     | modules.data_loader:get_data_loader:126 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:40:27.273 | INFO     | modules.data_loader:get_data_loader:127 - path_tmp=deprecated
+2024-12-18 22:40:27.273 | INFO     | modules.data_loader:get_data_loader:141 - force creation of train data_loader
+2024-12-18 22:40:27.273 | INFO     | modules.data_loader:get_data_loader:150 - load basket and action data
+2024-12-18 22:40:27.281 | INFO     | modules.data_loader:get_data_loader:159 - reduce number of consumers to 1,000
+2024-12-18 22:40:27.288 | INFO     | modules.data_loader:get_data_loader:162 - create data_streamer
+2024-12-18 22:40:27.365 | INFO     | modules.data_loader:get_data_loader:170 - create data_loader
+2024-12-18 22:40:27.365 | INFO     | modules.data_loader:from_streamer:39 - create sparse features
+2024-12-18 22:40:29.112 | INFO     | modules.data_loader:from_streamer:64 - create dense features
+2024-12-18 22:40:29.183 | INFO     | modules.data_loader:get_data_loader:181 - finished creating data_loader
+2024-12-18 22:40:29.196 | INFO     | modules.trainer:train:116 - Training all weights
+2024-12-18 22:42:06.480 | INFO     | __main__:main:214 - □
+**0.0813**, **0.0790**, **0.0771**, **0.0761**, **0.0758**, **0.0758**, **0.0758**, **0.0757**, **0.0757**, **0.0757**, **0.0757**, **0.0757**, **0.0757**, **0.0757**, **0.0758**, **0.0759**, **0.0759**, **0.0759**, **0.0760**, **0.0760**, **0.0761**, **0.0761**, **0.0761**, **0.0762**, **0.0762**, **0.0762**, **0.0763**, **0.0763**, **0.0764**, **0.0764**, **0.0765**, **0.0765**, **0.0765**, **0.0765**, **0.0765**, **0.0767**, **0.0766**, **0.0768**, **0.0768**, **0.0768**, **0.0768**, **0.0769**, **0.0769**, **0.0769**, **0.0770**, **0.0770**, **0.0770**, **0.0771**, **0.0771**, **0.0771**, **0.0772**, **0.0772**, **0.0772**, **0.0772**, **0.0773**, **0.0773**, **0.0773**, **0.0773**, **0.0774**, **0.0774**, **0.0775**, **0.0775**, **0.0774**, **0.0774**, **0.0775**, **0.0775**, **0.0775**, **0.0776**, **0.0776**, **0.0775**, **0.0776**, **0.0776**, **0.0776**, **0.0777**, **0.0777**, **0.0776**, **0.0777**, **0.0777**, **0.0777**, **0.0777**, **0.0778**, **0.0777**, **0.0778**, **0.0777**, **0.0777**, **0.0778**, **0.0778**, **0.0778**, **0.0778**, **0.0778**, **0.0778**, **0.0778**, **0.0778**, **0.0779**, **0.0779**, **0.0779**, **0.0779**, **0.0779**, **0.0779**, **0.0780**, 
+
+**0.0855**, **0.0838**, **0.0820**, **0.0805**, **0.0802**, **0.0800**, **0.0801**, **0.0801**, **0.0801**, **0.0801**, **0.0801**, **0.0800**, **0.0802**, **0.0803**, **0.0803**, **0.0805**, **0.0804**, **0.0805**, **0.0806**, **0.0806**, **0.0807**, **0.0806**, **0.0807**, **0.0807**, **0.0808**, **0.0808**, **0.0809**, **0.0809**, **0.0810**, **0.0810**, **0.0811**, **0.0811**, **0.0811**, **0.0812**, **0.0812**, **0.0812**, **0.0813**, **0.0814**, **0.0814**, **0.0814**, **0.0815**, **0.0815**, **0.0816**, **0.0817**, **0.0816**, **0.0816**, **0.0817**, **0.0818**, **0.0818**, **0.0818**, **0.0819**, **0.0819**, **0.0820**, **0.0820**, **0.0819**, **0.0820**, **0.0820**, **0.0821**, **0.0821**, **0.0821**, **0.0821**, **0.0822**, **0.0822**, **0.0822**, **0.0822**, **0.0822**, **0.0823**, **0.0823**, **0.0823**, **0.0824**, **0.0823**, **0.0824**, **0.0823**, **0.0824**, **0.0824**, **0.0824**, **0.0824**, **0.0824**, **0.0824**, **0.0825**, **0.0825**, **0.0825**, **0.0825**, **0.0825**, **0.0825**, **0.0826**, **0.0825**, **0.0826**, **0.0825**, **0.0826**, **0.0826**, **0.0826**, **0.0826**, **0.0826**, **0.0826**, **0.0826**, **0.0827**, **0.0826**, **0.0826**, **0.0827**, 
+
+**0.0901**, **0.0881**, **0.0858**, **0.0845**, **0.0842**, **0.0841**, **0.0841**, **0.0842**, **0.0840**, **0.0841**, **0.0840**, **0.0842**, **0.0841**, **0.0842**, **0.0843**, **0.0843**, **0.0844**, **0.0844**, **0.0844**, **0.0844**, **0.0845**, **0.0846**, **0.0846**, **0.0846**, **0.0847**, **0.0847**, **0.0847**, **0.0848**, **0.0847**, **0.0849**, **0.0849**, **0.0849**, **0.0850**, **0.0850**, **0.0850**, **0.0851**, **0.0851**, **0.0852**, **0.0852**, **0.0852**, **0.0853**, **0.0852**, **0.0853**, **0.0853**, **0.0853**, **0.0854**, **0.0855**, **0.0854**, **0.0855**, **0.0855**, **0.0856**, **0.0856**, **0.0856**, **0.0856**, **0.0856**, **0.0856**, **0.0857**, **0.0856**, **0.0857**, **0.0858**, **0.0857**, **0.0857**, **0.0858**, **0.0858**, **0.0858**, **0.0858**, **0.0857**, **0.0858**, **0.0858**, **0.0859**, **0.0859**, **0.0859**, **0.0859**, **0.0859**, **0.0859**, **0.0859**, **0.0859**, **0.0861**, **0.0860**, **0.0860**, **0.0860**, **0.0860**, **0.0860**, **0.0860**, **0.0860**, **0.0860**, **0.0861**, **0.0861**, **0.0860**, **0.0861**, **0.0861**, **0.0861**, **0.0861**, **0.0861**, **0.0861**, **0.0861**, **0.0862**, **0.0861**, **0.0861**, **0.0862**, 
+
+[2024-12-18 22:42:06] Running: python -m dnn.predict -c configs/config.yaml -l bootstrap -t dnn/config_model.yaml -e 99
+2024-12-18 22:42:07.990 | INFO     | __main__:<module>:97 - reading epoch from params
+2024-12-18 22:42:07.990 | INFO     | __main__:main:17 - Predict `dnn`
+2024-12-18 22:42:07.990 | INFO     | __main__:main:19 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:42:07.990 | INFO     | __main__:main:20 - model=model_010
+2024-12-18 22:42:07.990 | INFO     | __main__:main:21 - suffix=
+2024-12-18 22:42:07.990 | INFO     | __main__:main:22 - epoch=99
+2024-12-18 22:42:07.996 | INFO     | __main__:main:25 - use_gpu=False
+2024-12-18 22:42:08.032 | INFO     | __main__:main:60 - subset data
+2024-12-18 22:42:08.039 | INFO     | __main__:main:66 - make prediction
+/Users/princess/Documents/RA/DeepNN/modules/predictor.py:68: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(
+2024-12-18 22:42:08.526 | INFO     | __main__:main:82 - log-loss = 0.079389
+2024-12-18 22:42:08.562 | INFO     | __main__:main:87 - □
+2024-12-18 22:42:08.564 | INFO     | __main__:<module>:97 - reading epoch from params
+2024-12-18 22:42:08.564 | INFO     | __main__:main:17 - Predict `dnn`
+2024-12-18 22:42:08.564 | INFO     | __main__:main:19 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:42:08.564 | INFO     | __main__:main:20 - model=model_010
+2024-12-18 22:42:08.564 | INFO     | __main__:main:21 - suffix=
+2024-12-18 22:42:08.564 | INFO     | __main__:main:22 - epoch=99
+2024-12-18 22:42:08.570 | INFO     | __main__:main:25 - use_gpu=False
+2024-12-18 22:42:08.586 | INFO     | __main__:main:60 - subset data
+2024-12-18 22:42:08.594 | INFO     | __main__:main:66 - make prediction
+/Users/princess/Documents/RA/DeepNN/modules/predictor.py:68: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(
+2024-12-18 22:42:08.713 | INFO     | __main__:main:82 - log-loss = 0.082590
+2024-12-18 22:42:08.748 | INFO     | __main__:main:87 - □
+2024-12-18 22:42:08.749 | INFO     | __main__:<module>:97 - reading epoch from params
+2024-12-18 22:42:08.749 | INFO     | __main__:main:17 - Predict `dnn`
+2024-12-18 22:42:08.750 | INFO     | __main__:main:19 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:42:08.750 | INFO     | __main__:main:20 - model=model_010
+2024-12-18 22:42:08.750 | INFO     | __main__:main:21 - suffix=
+2024-12-18 22:42:08.750 | INFO     | __main__:main:22 - epoch=99
+2024-12-18 22:42:08.756 | INFO     | __main__:main:25 - use_gpu=False
+2024-12-18 22:42:08.771 | INFO     | __main__:main:60 - subset data
+2024-12-18 22:42:08.779 | INFO     | __main__:main:66 - make prediction
+/Users/princess/Documents/RA/DeepNN/modules/predictor.py:68: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  state_dict = torch.load(
+2024-12-18 22:42:08.894 | INFO     | __main__:main:82 - log-loss = 0.088296
+2024-12-18 22:42:08.930 | INFO     | __main__:main:87 - □
+[2024-12-18 22:42:09] Running: python -m uplift.logit-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 22:42:10.319 | INFO     | __main__:main:21 - Discount simulation `logit-cross by j`
+2024-12-18 22:42:10.325 | INFO     | __main__:main:31 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:42:10.325 | INFO     | __main__:main:32 - I=100
+2024-12-18 22:42:10.325 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 22:42:10.844 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 22:42:10.851 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [00:00<00:47,  5.29it/s]  1%|          | 2/250 [00:00<00:42,  5.90it/s]  1%|          | 3/250 [00:00<00:40,  6.15it/s]  2%|▏         | 4/250 [00:00<00:41,  5.94it/s]  2%|▏         | 5/250 [00:00<00:39,  6.13it/s]  2%|▏         | 6/250 [00:00<00:39,  6.25it/s]  3%|▎         | 7/250 [00:01<00:40,  6.05it/s]  3%|▎         | 8/250 [00:01<00:39,  6.18it/s]  4%|▎         | 9/250 [00:01<00:38,  6.27it/s]  4%|▍         | 10/250 [00:01<00:39,  6.06it/s]  4%|▍         | 11/250 [00:01<00:38,  6.18it/s]  5%|▍         | 12/250 [00:01<00:38,  6.25it/s]  5%|▌         | 13/250 [00:02<00:39,  6.04it/s]  6%|▌         | 14/250 [00:02<00:38,  6.15it/s]  6%|▌         | 15/250 [00:02<00:37,  6.24it/s]  6%|▋         | 16/250 [00:02<00:37,  6.31it/s]  7%|▋         | 17/250 [00:02<00:38,  6.10it/s]  7%|▋         | 18/250 [00:02<00:37,  6.22it/s]  8%|▊         | 19/250 [00:03<00:36,  6.30it/s]  8%|▊         | 20/250 [00:03<00:37,  6.11it/s]  8%|▊         | 21/250 [00:03<00:36,  6.22it/s]  9%|▉         | 22/250 [00:03<00:36,  6.30it/s]  9%|▉         | 23/250 [00:03<00:37,  6.09it/s] 10%|▉         | 24/250 [00:03<00:36,  6.21it/s] 10%|█         | 25/250 [00:04<00:35,  6.28it/s] 10%|█         | 26/250 [00:04<00:36,  6.08it/s] 11%|█         | 27/250 [00:04<00:36,  6.19it/s] 11%|█         | 28/250 [00:04<00:35,  6.28it/s] 12%|█▏        | 29/250 [00:04<00:36,  6.05it/s] 12%|█▏        | 30/250 [00:04<00:35,  6.17it/s] 12%|█▏        | 31/250 [00:05<00:35,  6.25it/s] 13%|█▎        | 32/250 [00:05<00:36,  6.00it/s] 13%|█▎        | 33/250 [00:05<00:35,  6.12it/s] 14%|█▎        | 34/250 [00:05<00:34,  6.20it/s] 14%|█▍        | 35/250 [00:05<00:34,  6.29it/s] 14%|█▍        | 36/250 [00:05<00:35,  6.09it/s] 15%|█▍        | 37/250 [00:06<00:34,  6.21it/s] 15%|█▌        | 38/250 [00:06<00:33,  6.29it/s] 16%|█▌        | 39/250 [00:06<00:35,  6.00it/s] 16%|█▌        | 40/250 [00:06<00:34,  6.13it/s] 16%|█▋        | 41/250 [00:06<00:33,  6.23it/s] 17%|█▋        | 42/250 [00:06<00:34,  6.04it/s] 17%|█▋        | 43/250 [00:06<00:34,  6.07it/s] 18%|█▊        | 44/250 [00:07<00:33,  6.12it/s] 18%|█▊        | 45/250 [00:07<00:34,  5.93it/s] 18%|█▊        | 46/250 [00:07<00:33,  6.08it/s] 19%|█▉        | 47/250 [00:07<00:32,  6.19it/s] 19%|█▉        | 48/250 [00:07<00:33,  6.00it/s] 20%|█▉        | 49/250 [00:07<00:32,  6.12it/s] 20%|██        | 50/250 [00:08<00:32,  6.21it/s] 20%|██        | 51/250 [00:08<00:33,  6.01it/s] 21%|██        | 52/250 [00:08<00:32,  6.10it/s] 21%|██        | 53/250 [00:08<00:31,  6.20it/s] 22%|██▏       | 54/250 [00:08<00:31,  6.28it/s] 22%|██▏       | 55/250 [00:08<00:32,  6.08it/s] 22%|██▏       | 56/250 [00:09<00:31,  6.19it/s] 23%|██▎       | 57/250 [00:09<00:30,  6.26it/s] 23%|██▎       | 58/250 [00:09<00:31,  6.06it/s] 24%|██▎       | 59/250 [00:09<00:30,  6.17it/s] 24%|██▍       | 60/250 [00:09<00:30,  6.26it/s] 24%|██▍       | 61/250 [00:09<00:31,  6.05it/s] 25%|██▍       | 62/250 [00:10<00:30,  6.15it/s] 25%|██▌       | 63/250 [00:10<00:29,  6.24it/s] 26%|██▌       | 64/250 [00:10<00:30,  6.04it/s] 26%|██▌       | 65/250 [00:10<00:30,  6.15it/s] 26%|██▋       | 66/250 [00:10<00:29,  6.25it/s] 27%|██▋       | 67/250 [00:10<00:30,  6.03it/s] 27%|██▋       | 68/250 [00:11<00:29,  6.15it/s] 28%|██▊       | 69/250 [00:11<00:28,  6.24it/s] 28%|██▊       | 70/250 [00:11<00:29,  6.03it/s] 28%|██▊       | 71/250 [00:11<00:29,  6.15it/s] 29%|██▉       | 72/250 [00:11<00:28,  6.24it/s] 29%|██▉       | 73/250 [00:11<00:28,  6.31it/s] 30%|██▉       | 74/250 [00:12<00:28,  6.09it/s] 30%|███       | 75/250 [00:12<00:28,  6.20it/s] 30%|███       | 76/250 [00:12<00:27,  6.29it/s] 31%|███       | 77/250 [00:12<00:28,  6.07it/s] 31%|███       | 78/250 [00:12<00:27,  6.19it/s] 32%|███▏      | 79/250 [00:12<00:27,  6.28it/s] 32%|███▏      | 80/250 [00:13<00:28,  6.06it/s] 32%|███▏      | 81/250 [00:13<00:27,  6.18it/s] 33%|███▎      | 82/250 [00:13<00:26,  6.27it/s] 33%|███▎      | 83/250 [00:13<00:27,  6.06it/s] 34%|███▎      | 84/250 [00:13<00:26,  6.17it/s] 34%|███▍      | 85/250 [00:13<00:26,  6.26it/s] 34%|███▍      | 86/250 [00:13<00:27,  6.03it/s] 35%|███▍      | 87/250 [00:14<00:26,  6.15it/s] 35%|███▌      | 88/250 [00:14<00:25,  6.24it/s] 36%|███▌      | 89/250 [00:14<00:26,  6.03it/s] 36%|███▌      | 90/250 [00:14<00:26,  6.14it/s] 36%|███▋      | 91/250 [00:14<00:25,  6.23it/s] 37%|███▋      | 92/250 [00:14<00:25,  6.30it/s] 37%|███▋      | 93/250 [00:15<00:25,  6.09it/s] 38%|███▊      | 94/250 [00:15<00:25,  6.20it/s] 38%|███▊      | 95/250 [00:15<00:24,  6.29it/s] 38%|███▊      | 96/250 [00:15<00:25,  6.07it/s] 39%|███▉      | 97/250 [00:15<00:24,  6.19it/s] 39%|███▉      | 98/250 [00:15<00:24,  6.28it/s] 40%|███▉      | 99/250 [00:16<00:24,  6.05it/s] 40%|████      | 100/250 [00:16<00:24,  6.18it/s] 40%|████      | 101/250 [00:16<00:23,  6.27it/s] 41%|████      | 102/250 [00:16<00:24,  6.05it/s] 41%|████      | 103/250 [00:16<00:23,  6.17it/s] 42%|████▏     | 104/250 [00:16<00:23,  6.25it/s] 42%|████▏     | 105/250 [00:17<00:24,  6.03it/s] 42%|████▏     | 106/250 [00:17<00:23,  6.15it/s] 43%|████▎     | 107/250 [00:17<00:22,  6.24it/s] 43%|████▎     | 108/250 [00:17<00:23,  6.02it/s] 44%|████▎     | 109/250 [00:17<00:22,  6.14it/s] 44%|████▍     | 110/250 [00:17<00:22,  6.23it/s] 44%|████▍     | 111/250 [00:18<00:22,  6.29it/s] 45%|████▍     | 112/250 [00:18<00:22,  6.06it/s] 45%|████▌     | 113/250 [00:18<00:22,  6.18it/s] 46%|████▌     | 114/250 [00:18<00:21,  6.26it/s] 46%|████▌     | 115/250 [00:18<00:22,  6.04it/s] 46%|████▋     | 116/250 [00:18<00:21,  6.17it/s] 47%|████▋     | 117/250 [00:19<00:21,  6.26it/s] 47%|████▋     | 118/250 [00:19<00:21,  6.03it/s] 48%|████▊     | 119/250 [00:19<00:21,  6.16it/s] 48%|████▊     | 120/250 [00:19<00:20,  6.25it/s] 48%|████▊     | 121/250 [00:19<00:21,  6.02it/s] 49%|████▉     | 122/250 [00:19<00:20,  6.12it/s] 49%|████▉     | 123/250 [00:19<00:20,  6.22it/s] 50%|████▉     | 124/250 [00:20<00:21,  5.99it/s] 50%|█████     | 125/250 [00:20<00:20,  6.12it/s] 50%|█████     | 126/250 [00:20<00:19,  6.21it/s] 51%|█████     | 127/250 [00:20<00:20,  5.99it/s] 51%|█████     | 128/250 [00:20<00:19,  6.12it/s] 52%|█████▏    | 129/250 [00:20<00:19,  6.22it/s] 52%|█████▏    | 130/250 [00:21<00:19,  6.29it/s] 52%|█████▏    | 131/250 [00:21<00:19,  6.06it/s] 53%|█████▎    | 132/250 [00:21<00:19,  6.18it/s] 53%|█████▎    | 133/250 [00:21<00:18,  6.27it/s] 54%|█████▎    | 134/250 [00:21<00:19,  6.05it/s] 54%|█████▍    | 135/250 [00:21<00:18,  6.16it/s] 54%|█████▍    | 136/250 [00:22<00:18,  6.25it/s] 55%|█████▍    | 137/250 [00:22<00:18,  6.02it/s] 55%|█████▌    | 138/250 [00:22<00:18,  6.16it/s] 56%|█████▌    | 139/250 [00:22<00:17,  6.27it/s] 56%|█████▌    | 140/250 [00:22<00:18,  6.04it/s] 56%|█████▋    | 141/250 [00:22<00:17,  6.16it/s] 57%|█████▋    | 142/250 [00:23<00:17,  6.25it/s] 57%|█████▋    | 143/250 [00:23<00:17,  6.01it/s] 58%|█████▊    | 144/250 [00:23<00:17,  6.14it/s] 58%|█████▊    | 145/250 [00:23<00:16,  6.23it/s] 58%|█████▊    | 146/250 [00:23<00:17,  6.01it/s] 59%|█████▉    | 147/250 [00:23<00:16,  6.14it/s] 59%|█████▉    | 148/250 [00:24<00:16,  6.23it/s] 60%|█████▉    | 149/250 [00:24<00:16,  6.29it/s] 60%|██████    | 150/250 [00:24<00:16,  6.05it/s] 60%|██████    | 151/250 [00:24<00:16,  6.18it/s] 61%|██████    | 152/250 [00:24<00:15,  6.27it/s] 61%|██████    | 153/250 [00:24<00:16,  6.04it/s] 62%|██████▏   | 154/250 [00:25<00:15,  6.17it/s] 62%|██████▏   | 155/250 [00:25<00:15,  6.26it/s] 62%|██████▏   | 156/250 [00:25<00:15,  6.03it/s] 63%|██████▎   | 157/250 [00:25<00:15,  6.16it/s] 63%|██████▎   | 158/250 [00:25<00:14,  6.26it/s] 64%|██████▎   | 159/250 [00:25<00:15,  6.03it/s] 64%|██████▍   | 160/250 [00:26<00:14,  6.15it/s] 64%|██████▍   | 161/250 [00:26<00:14,  6.25it/s] 65%|██████▍   | 162/250 [00:26<00:14,  6.01it/s] 65%|██████▌   | 163/250 [00:26<00:14,  6.14it/s] 66%|██████▌   | 164/250 [00:26<00:13,  6.24it/s] 66%|██████▌   | 165/250 [00:26<00:14,  6.01it/s] 66%|██████▋   | 166/250 [00:26<00:13,  6.14it/s] 67%|██████▋   | 167/250 [00:27<00:13,  6.23it/s] 67%|██████▋   | 168/250 [00:27<00:13,  6.30it/s] 68%|██████▊   | 169/250 [00:27<00:13,  6.06it/s] 68%|██████▊   | 170/250 [00:27<00:12,  6.18it/s] 68%|██████▊   | 171/250 [00:27<00:12,  6.27it/s] 69%|██████▉   | 172/250 [00:27<00:12,  6.04it/s] 69%|██████▉   | 173/250 [00:28<00:12,  6.17it/s] 70%|██████▉   | 174/250 [00:28<00:12,  6.27it/s] 70%|███████   | 175/250 [00:28<00:12,  6.03it/s] 70%|███████   | 176/250 [00:28<00:12,  6.16it/s] 71%|███████   | 177/250 [00:28<00:11,  6.26it/s] 71%|███████   | 178/250 [00:28<00:11,  6.00it/s] 72%|███████▏  | 179/250 [00:29<00:11,  6.12it/s] 72%|███████▏  | 180/250 [00:29<00:11,  6.22it/s] 72%|███████▏  | 181/250 [00:29<00:11,  5.98it/s] 73%|███████▎  | 182/250 [00:29<00:11,  6.10it/s] 73%|███████▎  | 183/250 [00:29<00:10,  6.20it/s] 74%|███████▎  | 184/250 [00:29<00:11,  5.95it/s] 74%|███████▍  | 185/250 [00:30<00:10,  6.09it/s] 74%|███████▍  | 186/250 [00:30<00:10,  6.21it/s] 75%|███████▍  | 187/250 [00:30<00:10,  6.29it/s] 75%|███████▌  | 188/250 [00:30<00:10,  6.05it/s] 76%|███████▌  | 189/250 [00:30<00:09,  6.18it/s] 76%|███████▌  | 190/250 [00:30<00:09,  6.27it/s] 76%|███████▋  | 191/250 [00:31<00:09,  6.02it/s] 77%|███████▋  | 192/250 [00:31<00:09,  6.14it/s] 77%|███████▋  | 193/250 [00:31<00:09,  6.23it/s] 78%|███████▊  | 194/250 [00:31<00:09,  5.97it/s] 78%|███████▊  | 195/250 [00:31<00:08,  6.12it/s] 78%|███████▊  | 196/250 [00:31<00:08,  6.22it/s] 79%|███████▉  | 197/250 [00:32<00:08,  5.98it/s] 79%|███████▉  | 198/250 [00:32<00:08,  6.11it/s] 80%|███████▉  | 199/250 [00:32<00:08,  6.22it/s] 80%|████████  | 200/250 [00:32<00:08,  5.97it/s] 80%|████████  | 201/250 [00:32<00:08,  6.11it/s] 81%|████████  | 202/250 [00:32<00:07,  6.22it/s] 81%|████████  | 203/250 [00:33<00:07,  5.96it/s] 82%|████████▏ | 204/250 [00:33<00:07,  6.07it/s] 82%|████████▏ | 205/250 [00:33<00:07,  6.17it/s] 82%|████████▏ | 206/250 [00:33<00:07,  6.27it/s] 83%|████████▎ | 207/250 [00:33<00:07,  6.01it/s] 83%|████████▎ | 208/250 [00:33<00:06,  6.15it/s] 84%|████████▎ | 209/250 [00:33<00:06,  6.25it/s] 84%|████████▍ | 210/250 [00:34<00:06,  6.01it/s] 84%|████████▍ | 211/250 [00:34<00:06,  6.15it/s] 85%|████████▍ | 212/250 [00:34<00:06,  6.26it/s] 85%|████████▌ | 213/250 [00:34<00:06,  6.01it/s] 86%|████████▌ | 214/250 [00:34<00:05,  6.15it/s] 86%|████████▌ | 215/250 [00:34<00:05,  6.25it/s] 86%|████████▋ | 216/250 [00:35<00:05,  5.98it/s] 87%|████████▋ | 217/250 [00:35<00:05,  6.12it/s] 87%|████████▋ | 218/250 [00:35<00:05,  6.23it/s] 88%|████████▊ | 219/250 [00:35<00:05,  5.97it/s] 88%|████████▊ | 220/250 [00:35<00:04,  6.11it/s] 88%|████████▊ | 221/250 [00:35<00:04,  6.21it/s] 89%|████████▉ | 222/250 [00:36<00:04,  5.96it/s] 89%|████████▉ | 223/250 [00:36<00:04,  6.10it/s] 90%|████████▉ | 224/250 [00:36<00:04,  6.21it/s] 90%|█████████ | 225/250 [00:36<00:03,  6.29it/s] 90%|█████████ | 226/250 [00:36<00:03,  6.03it/s] 91%|█████████ | 227/250 [00:36<00:03,  6.16it/s] 91%|█████████ | 228/250 [00:37<00:03,  6.26it/s] 92%|█████████▏| 229/250 [00:37<00:03,  6.00it/s] 92%|█████████▏| 230/250 [00:37<00:03,  6.15it/s] 92%|█████████▏| 231/250 [00:37<00:03,  6.25it/s] 93%|█████████▎| 232/250 [00:37<00:03,  5.99it/s] 93%|█████████▎| 233/250 [00:37<00:02,  6.14it/s] 94%|█████████▎| 234/250 [00:38<00:02,  6.25it/s] 94%|█████████▍| 235/250 [00:38<00:02,  5.99it/s] 94%|█████████▍| 236/250 [00:38<00:02,  6.12it/s] 95%|█████████▍| 237/250 [00:38<00:02,  6.23it/s] 95%|█████████▌| 238/250 [00:38<00:02,  5.96it/s] 96%|█████████▌| 239/250 [00:38<00:01,  6.11it/s] 96%|█████████▌| 240/250 [00:39<00:01,  6.22it/s] 96%|█████████▋| 241/250 [00:39<00:01,  5.95it/s] 97%|█████████▋| 242/250 [00:39<00:01,  6.10it/s] 97%|█████████▋| 243/250 [00:39<00:01,  6.21it/s] 98%|█████████▊| 244/250 [00:39<00:00,  6.28it/s] 98%|█████████▊| 245/250 [00:39<00:00,  6.00it/s] 98%|█████████▊| 246/250 [00:40<00:00,  6.14it/s] 99%|█████████▉| 247/250 [00:40<00:00,  6.24it/s] 99%|█████████▉| 248/250 [00:40<00:00,  5.98it/s]100%|█████████▉| 249/250 [00:40<00:00,  6.11it/s]100%|██████████| 250/250 [00:40<00:00,  6.22it/s]100%|██████████| 250/250 [00:40<00:00,  6.14it/s]
+2024-12-18 22:42:52.329 | INFO     | __main__:main:193 - □
+2024-12-18 22:42:52.393 | INFO     | __main__:main:21 - Discount simulation `logit-cross by j`
+2024-12-18 22:42:52.399 | INFO     | __main__:main:31 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:42:52.399 | INFO     | __main__:main:32 - I=100
+2024-12-18 22:42:52.399 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 22:42:52.840 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 22:42:52.843 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [00:00<00:56,  4.38it/s]  1%|          | 2/250 [00:00<00:47,  5.19it/s]  1%|          | 3/250 [00:00<00:46,  5.32it/s]  2%|▏         | 4/250 [00:00<00:43,  5.68it/s]  2%|▏         | 5/250 [00:00<00:41,  5.94it/s]  2%|▏         | 6/250 [00:01<00:40,  6.04it/s]  3%|▎         | 7/250 [00:01<00:40,  5.93it/s]  3%|▎         | 8/250 [00:01<00:40,  6.04it/s]  4%|▎         | 9/250 [00:01<00:39,  6.08it/s]  4%|▍         | 10/250 [00:01<00:40,  5.93it/s]  4%|▍         | 11/250 [00:01<00:39,  6.08it/s]  5%|▍         | 12/250 [00:02<00:38,  6.20it/s]  5%|▌         | 13/250 [00:02<00:39,  6.03it/s]  6%|▌         | 14/250 [00:02<00:38,  6.11it/s]  6%|▌         | 15/250 [00:02<00:38,  6.16it/s]  6%|▋         | 16/250 [00:02<00:39,  5.91it/s]  7%|▋         | 17/250 [00:02<00:38,  6.05it/s]  7%|▋         | 18/250 [00:03<00:37,  6.16it/s]  8%|▊         | 19/250 [00:03<00:38,  5.99it/s]  8%|▊         | 20/250 [00:03<00:38,  5.94it/s]  8%|▊         | 21/250 [00:03<00:37,  6.03it/s]  9%|▉         | 22/250 [00:03<00:39,  5.79it/s]  9%|▉         | 23/250 [00:03<00:38,  5.95it/s] 10%|▉         | 24/250 [00:04<00:37,  6.06it/s] 10%|█         | 25/250 [00:04<00:38,  5.91it/s] 10%|█         | 26/250 [00:04<00:37,  6.01it/s] 11%|█         | 27/250 [00:04<00:36,  6.10it/s] 11%|█         | 28/250 [00:04<00:35,  6.19it/s] 12%|█▏        | 29/250 [00:04<00:36,  6.01it/s] 12%|█▏        | 30/250 [00:05<00:35,  6.13it/s] 12%|█▏        | 31/250 [00:05<00:35,  6.16it/s] 13%|█▎        | 32/250 [00:05<00:36,  5.96it/s] 13%|█▎        | 33/250 [00:05<00:35,  6.06it/s] 14%|█▎        | 34/250 [00:05<00:35,  6.07it/s] 14%|█▍        | 35/250 [00:05<00:36,  5.90it/s] 14%|█▍        | 36/250 [00:06<00:35,  6.02it/s] 15%|█▍        | 37/250 [00:06<00:35,  6.08it/s] 15%|█▌        | 38/250 [00:06<00:35,  5.91it/s] 16%|█▌        | 39/250 [00:06<00:34,  6.04it/s] 16%|█▌        | 40/250 [00:06<00:34,  6.15it/s] 16%|█▋        | 41/250 [00:06<00:35,  5.92it/s] 17%|█▋        | 42/250 [00:07<00:34,  6.00it/s] 17%|█▋        | 43/250 [00:07<00:34,  6.08it/s] 18%|█▊        | 44/250 [00:07<00:33,  6.13it/s] 18%|█▊        | 45/250 [00:07<00:34,  5.92it/s] 18%|█▊        | 46/250 [00:07<00:33,  6.01it/s] 19%|█▉        | 47/250 [00:07<00:33,  6.12it/s] 19%|█▉        | 48/250 [00:08<00:33,  5.96it/s] 20%|█▉        | 49/250 [00:08<00:33,  6.07it/s] 20%|██        | 50/250 [00:08<00:34,  5.78it/s] 20%|██        | 51/250 [00:08<00:35,  5.61it/s] 21%|██        | 52/250 [00:08<00:34,  5.76it/s] 21%|██        | 53/250 [00:08<00:33,  5.92it/s] 22%|██▏       | 54/250 [00:09<00:33,  5.79it/s] 22%|██▏       | 55/250 [00:09<00:32,  5.92it/s] 22%|██▏       | 56/250 [00:09<00:32,  6.01it/s] 23%|██▎       | 57/250 [00:09<00:33,  5.84it/s] 23%|██▎       | 58/250 [00:09<00:32,  5.96it/s] 24%|██▎       | 59/250 [00:09<00:31,  6.09it/s] 24%|██▍       | 60/250 [00:10<00:32,  5.84it/s] 24%|██▍       | 61/250 [00:10<00:31,  5.96it/s] 25%|██▍       | 62/250 [00:10<00:30,  6.09it/s] 25%|██▌       | 63/250 [00:10<00:30,  6.14it/s] 26%|██▌       | 64/250 [00:10<00:31,  5.98it/s] 26%|██▌       | 65/250 [00:10<00:30,  6.12it/s] 26%|██▋       | 66/250 [00:11<00:29,  6.21it/s] 27%|██▋       | 67/250 [00:11<00:30,  5.92it/s] 27%|██▋       | 68/250 [00:11<00:30,  6.03it/s] 28%|██▊       | 69/250 [00:11<00:29,  6.15it/s] 28%|██▊       | 70/250 [00:11<00:30,  5.89it/s] 28%|██▊       | 71/250 [00:11<00:29,  5.98it/s] 29%|██▉       | 72/250 [00:12<00:29,  6.09it/s] 29%|██▉       | 73/250 [00:12<00:30,  5.77it/s] 30%|██▉       | 74/250 [00:12<00:29,  5.94it/s] 30%|███       | 75/250 [00:12<00:28,  6.09it/s] 30%|███       | 76/250 [00:12<00:29,  5.89it/s] 31%|███       | 77/250 [00:12<00:29,  5.95it/s] 31%|███       | 78/250 [00:13<00:28,  6.02it/s] 32%|███▏      | 79/250 [00:13<00:29,  5.73it/s] 32%|███▏      | 80/250 [00:13<00:29,  5.83it/s] 32%|███▏      | 81/250 [00:13<00:28,  5.90it/s] 33%|███▎      | 82/250 [00:13<00:28,  5.98it/s] 33%|███▎      | 83/250 [00:13<00:30,  5.55it/s] 34%|███▎      | 84/250 [00:14<00:28,  5.73it/s] 34%|███▍      | 85/250 [00:14<00:28,  5.84it/s] 34%|███▍      | 86/250 [00:14<00:28,  5.75it/s] 35%|███▍      | 87/250 [00:14<00:27,  5.91it/s] 35%|███▌      | 88/250 [00:14<00:26,  6.02it/s] 36%|███▌      | 89/250 [00:14<00:27,  5.86it/s] 36%|███▌      | 90/250 [00:15<00:26,  6.01it/s] 36%|███▋      | 91/250 [00:15<00:26,  6.08it/s] 37%|███▋      | 92/250 [00:15<00:27,  5.85it/s] 37%|███▋      | 93/250 [00:15<00:26,  6.01it/s] 38%|███▊      | 94/250 [00:15<00:25,  6.14it/s] 38%|███▊      | 95/250 [00:15<00:26,  5.95it/s] 38%|███▊      | 96/250 [00:16<00:25,  6.01it/s] 39%|███▉      | 97/250 [00:16<00:26,  5.81it/s] 39%|███▉      | 98/250 [00:16<00:27,  5.57it/s] 40%|███▉      | 99/250 [00:16<00:26,  5.73it/s] 40%|████      | 100/250 [00:16<00:26,  5.77it/s] 40%|████      | 101/250 [00:16<00:25,  5.78it/s] 41%|████      | 102/250 [00:17<00:27,  5.36it/s] 41%|████      | 103/250 [00:17<00:26,  5.56it/s] 42%|████▏     | 104/250 [00:17<00:25,  5.79it/s] 42%|████▏     | 105/250 [00:17<00:25,  5.59it/s] 42%|████▏     | 106/250 [00:17<00:25,  5.75it/s] 43%|████▎     | 107/250 [00:18<00:24,  5.86it/s] 43%|████▎     | 108/250 [00:18<00:24,  5.72it/s] 44%|████▎     | 109/250 [00:18<00:23,  5.91it/s] 44%|████▍     | 110/250 [00:18<00:23,  6.04it/s] 44%|████▍     | 111/250 [00:18<00:23,  5.88it/s] 45%|████▍     | 112/250 [00:18<00:22,  6.03it/s] 45%|████▌     | 113/250 [00:19<00:22,  6.13it/s] 46%|████▌     | 114/250 [00:19<00:22,  5.92it/s] 46%|████▌     | 115/250 [00:19<00:22,  6.06it/s] 46%|████▋     | 116/250 [00:19<00:21,  6.17it/s] 47%|████▋     | 117/250 [00:19<00:22,  5.96it/s] 47%|████▋     | 118/250 [00:19<00:21,  6.09it/s] 48%|████▊     | 119/250 [00:20<00:21,  6.16it/s] 48%|████▊     | 120/250 [00:20<00:20,  6.24it/s] 48%|████▊     | 121/250 [00:20<00:21,  6.03it/s] 49%|████▉     | 122/250 [00:20<00:20,  6.16it/s] 49%|████▉     | 123/250 [00:20<00:20,  6.25it/s] 50%|████▉     | 124/250 [00:20<00:20,  6.02it/s] 50%|█████     | 125/250 [00:21<00:20,  6.15it/s] 50%|█████     | 126/250 [00:21<00:19,  6.24it/s] 51%|█████     | 127/250 [00:21<00:20,  6.00it/s] 51%|█████     | 128/250 [00:21<00:19,  6.11it/s] 52%|█████▏    | 129/250 [00:21<00:19,  6.22it/s] 52%|█████▏    | 130/250 [00:21<00:19,  6.01it/s] 52%|█████▏    | 131/250 [00:21<00:19,  6.10it/s] 53%|█████▎    | 132/250 [00:22<00:19,  6.11it/s] 53%|█████▎    | 133/250 [00:22<00:19,  5.87it/s] 54%|█████▎    | 134/250 [00:22<00:19,  5.94it/s] 54%|█████▍    | 135/250 [00:22<00:19,  6.05it/s] 54%|█████▍    | 136/250 [00:22<00:19,  5.76it/s] 55%|█████▍    | 137/250 [00:23<00:19,  5.89it/s] 55%|█████▌    | 138/250 [00:23<00:18,  5.96it/s] 56%|█████▌    | 139/250 [00:23<00:18,  6.01it/s] 56%|█████▌    | 140/250 [00:23<00:18,  5.80it/s] 56%|█████▋    | 141/250 [00:23<00:18,  5.90it/s] 57%|█████▋    | 142/250 [00:23<00:18,  5.99it/s] 57%|█████▋    | 143/250 [00:24<00:18,  5.73it/s] 58%|█████▊    | 144/250 [00:24<00:17,  5.90it/s] 58%|█████▊    | 145/250 [00:24<00:17,  5.98it/s] 58%|█████▊    | 146/250 [00:24<00:17,  5.79it/s] 59%|█████▉    | 147/250 [00:24<00:17,  5.95it/s] 59%|█████▉    | 148/250 [00:24<00:16,  6.07it/s] 60%|█████▉    | 149/250 [00:25<00:17,  5.89it/s] 60%|██████    | 150/250 [00:25<00:16,  6.04it/s] 60%|██████    | 151/250 [00:25<00:16,  6.16it/s] 61%|██████    | 152/250 [00:25<00:16,  5.95it/s] 61%|██████    | 153/250 [00:25<00:15,  6.09it/s] 62%|██████▏   | 154/250 [00:25<00:15,  6.19it/s] 62%|██████▏   | 155/250 [00:26<00:15,  5.95it/s] 62%|██████▏   | 156/250 [00:26<00:16,  5.79it/s] 63%|██████▎   | 157/250 [00:26<00:15,  5.92it/s] 63%|██████▎   | 158/250 [00:26<00:15,  5.99it/s] 64%|██████▎   | 159/250 [00:26<00:15,  5.70it/s] 64%|██████▍   | 160/250 [00:26<00:15,  5.83it/s] 64%|██████▍   | 161/250 [00:27<00:14,  5.94it/s] 65%|██████▍   | 162/250 [00:27<00:15,  5.81it/s] 65%|██████▌   | 163/250 [00:27<00:14,  5.99it/s] 66%|██████▌   | 164/250 [00:27<00:14,  6.04it/s] 66%|██████▌   | 165/250 [00:27<00:14,  5.75it/s] 66%|██████▋   | 166/250 [00:27<00:14,  5.89it/s] 67%|██████▋   | 167/250 [00:28<00:14,  5.76it/s] 67%|██████▋   | 168/250 [00:28<00:14,  5.67it/s] 68%|██████▊   | 169/250 [00:28<00:13,  5.86it/s] 68%|██████▊   | 170/250 [00:28<00:13,  5.96it/s] 68%|██████▊   | 171/250 [00:28<00:13,  5.74it/s] 69%|██████▉   | 172/250 [00:28<00:13,  5.86it/s] 69%|██████▉   | 173/250 [00:29<00:12,  6.01it/s] 70%|██████▉   | 174/250 [00:29<00:13,  5.85it/s] 70%|███████   | 175/250 [00:29<00:12,  6.01it/s] 70%|███████   | 176/250 [00:29<00:12,  6.13it/s] 71%|███████   | 177/250 [00:29<00:11,  6.17it/s] 71%|███████   | 178/250 [00:29<00:12,  5.83it/s] 72%|███████▏  | 179/250 [00:30<00:11,  5.94it/s] 72%|███████▏  | 180/250 [00:30<00:11,  6.04it/s] 72%|███████▏  | 181/250 [00:30<00:11,  5.87it/s] 73%|███████▎  | 182/250 [00:30<00:11,  6.02it/s] 73%|███████▎  | 183/250 [00:30<00:11,  6.06it/s] 74%|███████▎  | 184/250 [00:30<00:11,  5.82it/s] 74%|███████▍  | 185/250 [00:31<00:10,  5.91it/s] 74%|███████▍  | 186/250 [00:31<00:10,  6.00it/s] 75%|███████▍  | 187/250 [00:31<00:11,  5.49it/s] 75%|███████▌  | 188/250 [00:31<00:10,  5.66it/s] 76%|███████▌  | 189/250 [00:31<00:10,  5.82it/s] 76%|███████▌  | 190/250 [00:32<00:10,  5.70it/s] 76%|███████▋  | 191/250 [00:32<00:10,  5.89it/s] 77%|███████▋  | 192/250 [00:32<00:09,  6.03it/s] 77%|███████▋  | 193/250 [00:32<00:09,  5.78it/s] 78%|███████▊  | 194/250 [00:32<00:09,  5.89it/s] 78%|███████▊  | 195/250 [00:32<00:09,  5.98it/s] 78%|███████▊  | 196/250 [00:32<00:08,  6.02it/s] 79%|███████▉  | 197/250 [00:33<00:09,  5.75it/s] 79%|███████▉  | 198/250 [00:33<00:09,  5.66it/s] 80%|███████▉  | 199/250 [00:33<00:08,  5.78it/s] 80%|████████  | 200/250 [00:33<00:08,  5.58it/s] 80%|████████  | 201/250 [00:33<00:08,  5.73it/s] 81%|████████  | 202/250 [00:34<00:08,  5.85it/s] 81%|████████  | 203/250 [00:34<00:08,  5.66it/s] 82%|████████▏ | 204/250 [00:34<00:07,  5.87it/s] 82%|████████▏ | 205/250 [00:34<00:07,  6.02it/s] 82%|████████▏ | 206/250 [00:34<00:07,  5.69it/s] 83%|████████▎ | 207/250 [00:34<00:07,  5.87it/s] 83%|████████▎ | 208/250 [00:35<00:06,  6.03it/s] 84%|████████▎ | 209/250 [00:35<00:07,  5.84it/s] 84%|████████▍ | 210/250 [00:35<00:06,  6.00it/s] 84%|████████▍ | 211/250 [00:35<00:06,  6.13it/s] 85%|████████▍ | 212/250 [00:35<00:06,  5.80it/s] 85%|████████▌ | 213/250 [00:35<00:06,  5.92it/s] 86%|████████▌ | 214/250 [00:36<00:05,  6.06it/s] 86%|████████▌ | 215/250 [00:36<00:05,  6.12it/s] 86%|████████▋ | 216/250 [00:36<00:05,  5.81it/s] 87%|████████▋ | 217/250 [00:36<00:05,  6.00it/s] 87%|████████▋ | 218/250 [00:36<00:05,  6.13it/s] 88%|████████▊ | 219/250 [00:36<00:05,  5.80it/s] 88%|████████▊ | 220/250 [00:37<00:05,  5.92it/s] 88%|████████▊ | 221/250 [00:37<00:04,  6.03it/s] 89%|████████▉ | 222/250 [00:37<00:05,  5.53it/s] 89%|████████▉ | 223/250 [00:37<00:04,  5.78it/s] 90%|████████▉ | 224/250 [00:37<00:04,  5.88it/s] 90%|█████████ | 225/250 [00:37<00:04,  5.73it/s] 90%|█████████ | 226/250 [00:38<00:04,  5.86it/s] 91%|█████████ | 227/250 [00:38<00:03,  5.98it/s] 91%|█████████ | 228/250 [00:38<00:03,  5.79it/s] 92%|█████████▏| 229/250 [00:38<00:03,  5.89it/s] 92%|█████████▏| 230/250 [00:38<00:03,  5.96it/s] 92%|█████████▏| 231/250 [00:38<00:03,  5.65it/s] 93%|█████████▎| 232/250 [00:39<00:03,  5.82it/s] 93%|█████████▎| 233/250 [00:39<00:02,  5.95it/s] 94%|█████████▎| 234/250 [00:39<00:02,  6.03it/s] 94%|█████████▍| 235/250 [00:39<00:02,  5.84it/s] 94%|█████████▍| 236/250 [00:39<00:02,  6.00it/s] 95%|█████████▍| 237/250 [00:39<00:02,  6.11it/s] 95%|█████████▌| 238/250 [00:40<00:02,  5.90it/s] 96%|█████████▌| 239/250 [00:40<00:01,  6.04it/s] 96%|█████████▌| 240/250 [00:40<00:01,  6.12it/s] 96%|█████████▋| 241/250 [00:40<00:01,  5.87it/s] 97%|█████████▋| 242/250 [00:40<00:01,  6.02it/s] 97%|█████████▋| 243/250 [00:40<00:01,  6.10it/s] 98%|█████████▊| 244/250 [00:41<00:01,  5.71it/s] 98%|█████████▊| 245/250 [00:41<00:00,  5.90it/s] 98%|█████████▊| 246/250 [00:41<00:00,  6.03it/s] 99%|█████████▉| 247/250 [00:41<00:00,  5.75it/s] 99%|█████████▉| 248/250 [00:41<00:00,  5.94it/s]100%|█████████▉| 249/250 [00:41<00:00,  6.07it/s]100%|██████████| 250/250 [00:42<00:00,  6.17it/s]100%|██████████| 250/250 [00:42<00:00,  5.93it/s]
+2024-12-18 22:43:35.739 | INFO     | __main__:main:193 - □
+2024-12-18 22:43:35.798 | INFO     | __main__:main:21 - Discount simulation `logit-cross by j`
+2024-12-18 22:43:35.805 | INFO     | __main__:main:31 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 22:43:35.805 | INFO     | __main__:main:32 - I=100
+2024-12-18 22:43:35.805 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 22:43:36.271 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:32 - build dcm dataset cross base
+2024-12-18 22:43:36.279 | INFO     | modules.dcm_dataset_cross_base:build_dcm_dataset:115 - done
+  0%|          | 0/250 [00:00<?, ?it/s]  0%|          | 1/250 [00:00<00:54,  4.61it/s]  1%|          | 2/250 [00:00<00:55,  4.45it/s]  1%|          | 3/250 [00:00<00:47,  5.17it/s]  2%|▏         | 4/250 [00:00<00:43,  5.61it/s]  2%|▏         | 5/250 [00:00<00:43,  5.62it/s]  2%|▏         | 6/250 [00:01<00:42,  5.78it/s]  3%|▎         | 7/250 [00:01<00:41,  5.92it/s]  3%|▎         | 8/250 [00:01<00:40,  6.00it/s]  4%|▎         | 9/250 [00:01<00:41,  5.80it/s]  4%|▍         | 10/250 [00:01<00:40,  5.91it/s]  4%|▍         | 11/250 [00:01<00:39,  6.04it/s]  5%|▍         | 12/250 [00:02<00:40,  5.92it/s]  5%|▌         | 13/250 [00:02<00:39,  6.07it/s]  6%|▌         | 14/250 [00:02<00:38,  6.18it/s]  6%|▌         | 15/250 [00:02<00:39,  6.02it/s]  6%|▋         | 16/250 [00:02<00:38,  6.14it/s]  7%|▋         | 17/250 [00:02<00:37,  6.16it/s]  7%|▋         | 18/250 [00:03<00:39,  5.91it/s]  8%|▊         | 19/250 [00:03<00:38,  6.05it/s]  8%|▊         | 20/250 [00:03<00:37,  6.17it/s]  8%|▊         | 21/250 [00:03<00:38,  5.88it/s]  9%|▉         | 22/250 [00:03<00:37,  6.02it/s]  9%|▉         | 23/250 [00:03<00:36,  6.15it/s] 10%|▉         | 24/250 [00:04<00:37,  5.99it/s] 10%|█         | 25/250 [00:04<00:36,  6.12it/s] 10%|█         | 26/250 [00:04<00:36,  6.22it/s] 11%|█         | 27/250 [00:04<00:35,  6.29it/s] 11%|█         | 28/250 [00:04<00:36,  6.06it/s] 12%|█▏        | 29/250 [00:04<00:35,  6.16it/s] 12%|█▏        | 30/250 [00:05<00:35,  6.25it/s] 12%|█▏        | 31/250 [00:05<00:36,  6.06it/s] 13%|█▎        | 32/250 [00:05<00:35,  6.17it/s] 13%|█▎        | 33/250 [00:05<00:34,  6.20it/s] 14%|█▎        | 34/250 [00:05<00:37,  5.71it/s] 14%|█▍        | 35/250 [00:05<00:36,  5.90it/s] 14%|█▍        | 36/250 [00:06<00:35,  6.05it/s] 15%|█▍        | 37/250 [00:06<00:35,  5.92it/s] 15%|█▌        | 38/250 [00:06<00:34,  6.06it/s] 16%|█▌        | 39/250 [00:06<00:34,  6.11it/s] 16%|█▌        | 40/250 [00:06<00:35,  5.84it/s] 16%|█▋        | 41/250 [00:06<00:35,  5.96it/s] 17%|█▋        | 42/250 [00:07<00:34,  6.04it/s] 17%|█▋        | 43/250 [00:07<00:35,  5.90it/s] 18%|█▊        | 44/250 [00:07<00:34,  6.00it/s] 18%|█▊        | 45/250 [00:07<00:33,  6.03it/s] 18%|█▊        | 46/250 [00:07<00:33,  6.13it/s] 19%|█▉        | 47/250 [00:07<00:33,  5.97it/s] 19%|█▉        | 48/250 [00:08<00:33,  6.04it/s] 20%|█▉        | 49/250 [00:08<00:32,  6.10it/s] 20%|██        | 50/250 [00:08<00:33,  5.91it/s] 20%|██        | 51/250 [00:08<00:32,  6.05it/s] 21%|██        | 52/250 [00:08<00:32,  6.15it/s] 21%|██        | 53/250 [00:08<00:33,  5.96it/s] 22%|██▏       | 54/250 [00:09<00:32,  6.08it/s] 22%|██▏       | 55/250 [00:09<00:31,  6.16it/s] 22%|██▏       | 56/250 [00:09<00:33,  5.85it/s] 23%|██▎       | 57/250 [00:09<00:32,  5.97it/s] 23%|██▎       | 58/250 [00:09<00:31,  6.04it/s] 24%|██▎       | 59/250 [00:09<00:32,  5.89it/s] 24%|██▍       | 60/250 [00:10<00:31,  6.04it/s] 24%|██▍       | 61/250 [00:10<00:30,  6.15it/s] 25%|██▍       | 62/250 [00:10<00:32,  5.85it/s] 25%|██▌       | 63/250 [00:10<00:32,  5.74it/s] 26%|██▌       | 64/250 [00:10<00:31,  5.94it/s] 26%|██▌       | 65/250 [00:10<00:30,  6.09it/s] 26%|██▋       | 66/250 [00:11<00:31,  5.86it/s] 27%|██▋       | 67/250 [00:11<00:30,  5.95it/s] 27%|██▋       | 68/250 [00:11<00:30,  6.03it/s] 28%|██▊       | 69/250 [00:11<00:32,  5.58it/s] 28%|██▊       | 70/250 [00:11<00:31,  5.73it/s] 28%|██▊       | 71/250 [00:11<00:30,  5.85it/s] 29%|██▉       | 72/250 [00:12<00:31,  5.64it/s] 29%|██▉       | 73/250 [00:12<00:31,  5.56it/s] 30%|██▉       | 74/250 [00:12<00:30,  5.74it/s] 30%|███       | 75/250 [00:12<00:31,  5.55it/s] 30%|███       | 76/250 [00:12<00:30,  5.72it/s] 31%|███       | 77/250 [00:12<00:29,  5.88it/s] 31%|███       | 78/250 [00:13<00:30,  5.71it/s] 32%|███▏      | 79/250 [00:13<00:29,  5.84it/s] 32%|███▏      | 80/250 [00:13<00:28,  6.00it/s] 32%|███▏      | 81/250 [00:13<00:28,  5.86it/s] 33%|███▎      | 82/250 [00:13<00:28,  5.99it/s] 33%|███▎      | 83/250 [00:13<00:27,  6.08it/s] 34%|███▎      | 84/250 [00:14<00:26,  6.16it/s] 34%|███▍      | 85/250 [00:14<00:27,  5.95it/s] 34%|███▍      | 86/250 [00:14<00:27,  6.07it/s] 35%|███▍      | 87/250 [00:14<00:26,  6.18it/s] 35%|███▌      | 88/250 [00:14<00:27,  5.98it/s] 36%|███▌      | 89/250 [00:14<00:26,  6.07it/s] 36%|███▌      | 90/250 [00:15<00:26,  6.08it/s] 36%|███▋      | 91/250 [00:15<00:27,  5.86it/s] 37%|███▋      | 92/250 [00:15<00:26,  5.98it/s] 37%|███▋      | 93/250 [00:15<00:25,  6.08it/s] 38%|███▊      | 94/250 [00:15<00:26,  5.89it/s] 38%|███▊      | 95/250 [00:15<00:25,  6.02it/s] 38%|███▊      | 96/250 [00:16<00:25,  6.07it/s] 39%|███▉      | 97/250 [00:16<00:26,  5.84it/s] 39%|███▉      | 98/250 [00:16<00:25,  5.97it/s] 40%|███▉      | 99/250 [00:16<00:24,  6.09it/s] 40%|████      | 100/250 [00:16<00:25,  5.81it/s] 40%|████      | 101/250 [00:16<00:25,  5.96it/s] 41%|████      | 102/250 [00:17<00:24,  6.10it/s] 41%|████      | 103/250 [00:17<00:23,  6.21it/s] 42%|████▏     | 104/250 [00:17<00:24,  5.98it/s] 42%|████▏     | 105/250 [00:17<00:23,  6.10it/s] 42%|████▏     | 106/250 [00:17<00:23,  6.19it/s] 43%|████▎     | 107/250 [00:17<00:24,  5.86it/s] 43%|████▎     | 108/250 [00:18<00:23,  6.00it/s] 44%|████▎     | 109/250 [00:18<00:23,  6.09it/s] 44%|████▍     | 110/250 [00:18<00:23,  5.86it/s] 44%|████▍     | 111/250 [00:18<00:23,  5.98it/s] 45%|████▍     | 112/250 [00:18<00:22,  6.10it/s] 45%|████▌     | 113/250 [00:18<00:23,  5.90it/s] 46%|████▌     | 114/250 [00:19<00:23,  5.72it/s] 46%|████▌     | 115/250 [00:19<00:23,  5.82it/s] 46%|████▋     | 116/250 [00:19<00:23,  5.66it/s] 47%|████▋     | 117/250 [00:19<00:22,  5.83it/s] 47%|████▋     | 118/250 [00:19<00:22,  5.87it/s] 48%|████▊     | 119/250 [00:20<00:23,  5.51it/s] 48%|████▊     | 120/250 [00:20<00:22,  5.74it/s] 48%|████▊     | 121/250 [00:20<00:21,  5.90it/s] 49%|████▉     | 122/250 [00:20<00:21,  5.98it/s] 49%|████▉     | 123/250 [00:20<00:21,  5.81it/s] 50%|████▉     | 124/250 [00:20<00:21,  5.98it/s] 50%|█████     | 125/250 [00:21<00:20,  6.12it/s] 50%|█████     | 126/250 [00:21<00:20,  5.93it/s] 51%|█████     | 127/250 [00:21<00:20,  5.88it/s] 51%|█████     | 128/250 [00:21<00:21,  5.62it/s] 52%|█████▏    | 129/250 [00:21<00:21,  5.54it/s] 52%|█████▏    | 130/250 [00:21<00:20,  5.76it/s] 52%|█████▏    | 131/250 [00:22<00:20,  5.95it/s] 53%|█████▎    | 132/250 [00:22<00:20,  5.81it/s] 53%|█████▎    | 133/250 [00:22<00:20,  5.76it/s] 54%|█████▎    | 134/250 [00:22<00:19,  5.87it/s] 54%|█████▍    | 135/250 [00:22<00:20,  5.72it/s] 54%|█████▍    | 136/250 [00:22<00:19,  5.91it/s] 55%|█████▍    | 137/250 [00:23<00:18,  6.06it/s] 55%|█████▌    | 138/250 [00:23<00:19,  5.88it/s] 56%|█████▌    | 139/250 [00:23<00:18,  6.04it/s] 56%|█████▌    | 140/250 [00:23<00:17,  6.15it/s] 56%|█████▋    | 141/250 [00:23<00:17,  6.23it/s] 57%|█████▋    | 142/250 [00:23<00:17,  6.01it/s] 57%|█████▋    | 143/250 [00:24<00:17,  6.14it/s] 58%|█████▊    | 144/250 [00:24<00:16,  6.24it/s] 58%|█████▊    | 145/250 [00:24<00:17,  6.02it/s] 58%|█████▊    | 146/250 [00:24<00:16,  6.15it/s] 59%|█████▉    | 147/250 [00:24<00:16,  6.22it/s] 59%|█████▉    | 148/250 [00:24<00:17,  5.99it/s] 60%|█████▉    | 149/250 [00:25<00:16,  6.12it/s] 60%|██████    | 150/250 [00:25<00:16,  6.23it/s] 60%|██████    | 151/250 [00:25<00:16,  6.00it/s] 61%|██████    | 152/250 [00:25<00:15,  6.13it/s] 61%|██████    | 153/250 [00:25<00:15,  6.19it/s] 62%|██████▏   | 154/250 [00:25<00:16,  5.95it/s] 62%|██████▏   | 155/250 [00:26<00:15,  6.08it/s] 62%|██████▏   | 156/250 [00:26<00:15,  6.17it/s] 63%|██████▎   | 157/250 [00:26<00:15,  5.91it/s] 63%|██████▎   | 158/250 [00:26<00:15,  6.01it/s] 64%|██████▎   | 159/250 [00:26<00:14,  6.08it/s] 64%|██████▍   | 160/250 [00:26<00:14,  6.17it/s] 64%|██████▍   | 161/250 [00:27<00:15,  5.93it/s] 65%|██████▍   | 162/250 [00:27<00:14,  6.08it/s] 65%|██████▌   | 163/250 [00:27<00:14,  6.17it/s] 66%|██████▌   | 164/250 [00:27<00:14,  5.92it/s] 66%|██████▌   | 165/250 [00:27<00:14,  6.06it/s] 66%|██████▋   | 166/250 [00:27<00:13,  6.18it/s] 67%|██████▋   | 167/250 [00:28<00:13,  5.96it/s] 67%|██████▋   | 168/250 [00:28<00:13,  6.11it/s] 68%|██████▊   | 169/250 [00:28<00:13,  6.21it/s] 68%|██████▊   | 170/250 [00:28<00:13,  5.98it/s] 68%|██████▊   | 171/250 [00:28<00:12,  6.12it/s] 69%|██████▉   | 172/250 [00:28<00:12,  6.21it/s] 69%|██████▉   | 173/250 [00:29<00:12,  5.97it/s] 70%|██████▉   | 174/250 [00:29<00:12,  6.10it/s] 70%|███████   | 175/250 [00:29<00:12,  6.18it/s] 70%|███████   | 176/250 [00:29<00:12,  5.95it/s] 71%|███████   | 177/250 [00:29<00:11,  6.09it/s] 71%|███████   | 178/250 [00:29<00:11,  6.19it/s] 72%|███████▏  | 179/250 [00:29<00:11,  6.27it/s] 72%|███████▏  | 180/250 [00:30<00:11,  6.03it/s] 72%|███████▏  | 181/250 [00:30<00:11,  6.15it/s] 73%|███████▎  | 182/250 [00:30<00:10,  6.24it/s] 73%|███████▎  | 183/250 [00:30<00:11,  6.00it/s] 74%|███████▎  | 184/250 [00:30<00:10,  6.12it/s] 74%|███████▍  | 185/250 [00:30<00:10,  6.22it/s] 74%|███████▍  | 186/250 [00:31<00:10,  5.95it/s] 75%|███████▍  | 187/250 [00:31<00:10,  6.03it/s] 75%|███████▌  | 188/250 [00:31<00:10,  6.15it/s] 76%|███████▌  | 189/250 [00:31<00:10,  5.93it/s] 76%|███████▌  | 190/250 [00:31<00:09,  6.07it/s] 76%|███████▋  | 191/250 [00:31<00:09,  6.18it/s] 77%|███████▋  | 192/250 [00:32<00:09,  5.94it/s] 77%|███████▋  | 193/250 [00:32<00:09,  6.08it/s] 78%|███████▊  | 194/250 [00:32<00:09,  6.19it/s] 78%|███████▊  | 195/250 [00:32<00:09,  5.94it/s] 78%|███████▊  | 196/250 [00:32<00:08,  6.08it/s] 79%|███████▉  | 197/250 [00:32<00:08,  6.17it/s] 79%|███████▉  | 198/250 [00:33<00:08,  6.25it/s] 80%|███████▉  | 199/250 [00:33<00:08,  5.98it/s] 80%|████████  | 200/250 [00:33<00:08,  6.10it/s] 80%|████████  | 201/250 [00:33<00:07,  6.19it/s] 81%|████████  | 202/250 [00:33<00:08,  5.96it/s] 81%|████████  | 203/250 [00:33<00:07,  6.11it/s] 82%|████████▏ | 204/250 [00:34<00:07,  6.22it/s] 82%|████████▏ | 205/250 [00:34<00:07,  5.98it/s] 82%|████████▏ | 206/250 [00:34<00:07,  6.12it/s] 83%|████████▎ | 207/250 [00:34<00:06,  6.22it/s] 83%|████████▎ | 208/250 [00:34<00:07,  5.95it/s] 84%|████████▎ | 209/250 [00:34<00:06,  6.09it/s] 84%|████████▍ | 210/250 [00:35<00:06,  6.19it/s] 84%|████████▍ | 211/250 [00:35<00:06,  5.93it/s] 85%|████████▍ | 212/250 [00:35<00:06,  6.07it/s] 85%|████████▌ | 213/250 [00:35<00:05,  6.18it/s] 86%|████████▌ | 214/250 [00:35<00:06,  5.92it/s] 86%|████████▌ | 215/250 [00:35<00:05,  6.06it/s] 86%|████████▋ | 216/250 [00:36<00:05,  6.17it/s] 87%|████████▋ | 217/250 [00:36<00:05,  6.25it/s] 87%|████████▋ | 218/250 [00:36<00:05,  5.99it/s] 88%|████████▊ | 219/250 [00:36<00:05,  6.12it/s] 88%|████████▊ | 220/250 [00:36<00:04,  6.22it/s] 88%|████████▊ | 221/250 [00:36<00:04,  5.97it/s] 89%|████████▉ | 222/250 [00:37<00:04,  6.11it/s] 89%|████████▉ | 223/250 [00:37<00:04,  6.22it/s] 90%|████████▉ | 224/250 [00:37<00:04,  5.97it/s] 90%|█████████ | 225/250 [00:37<00:04,  6.11it/s] 90%|█████████ | 226/250 [00:37<00:03,  6.22it/s] 91%|█████████ | 227/250 [00:37<00:03,  5.96it/s] 91%|█████████ | 228/250 [00:38<00:03,  6.10it/s] 92%|█████████▏| 229/250 [00:38<00:03,  6.21it/s] 92%|█████████▏| 230/250 [00:38<00:03,  5.94it/s] 92%|█████████▏| 231/250 [00:38<00:03,  6.08it/s] 93%|█████████▎| 232/250 [00:38<00:02,  6.19it/s] 93%|█████████▎| 233/250 [00:38<00:02,  5.93it/s] 94%|█████████▎| 234/250 [00:39<00:02,  6.08it/s] 94%|█████████▍| 235/250 [00:39<00:02,  6.19it/s] 94%|█████████▍| 236/250 [00:39<00:02,  6.27it/s] 95%|█████████▍| 237/250 [00:39<00:02,  6.00it/s] 95%|█████████▌| 238/250 [00:39<00:01,  6.13it/s] 96%|█████████▌| 239/250 [00:39<00:01,  6.23it/s] 96%|█████████▌| 240/250 [00:40<00:01,  5.97it/s] 96%|█████████▋| 241/250 [00:40<00:01,  6.12it/s] 97%|█████████▋| 242/250 [00:40<00:01,  6.23it/s] 97%|█████████▋| 243/250 [00:40<00:01,  5.97it/s] 98%|█████████▊| 244/250 [00:40<00:00,  6.12it/s] 98%|█████████▊| 245/250 [00:40<00:00,  6.22it/s] 98%|█████████▊| 246/250 [00:40<00:00,  5.96it/s] 99%|█████████▉| 247/250 [00:41<00:00,  6.10it/s] 99%|█████████▉| 248/250 [00:41<00:00,  6.20it/s]100%|█████████▉| 249/250 [00:41<00:00,  5.93it/s]100%|██████████| 250/250 [00:41<00:00,  6.08it/s]100%|██████████| 250/250 [00:41<00:00,  6.00it/s]
+2024-12-18 22:44:18.634 | INFO     | __main__:main:193 - □
+[2024-12-18 22:44:18] Running: python -m uplift.lightgbm-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 22:44:19.727 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cross by j`
+2024-12-18 22:44:19.733 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 22:44:19.733 | INFO     | __main__:main:31 - I=100
+2024-12-18 22:44:19.733 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 22:44:19.733 | INFO     | __main__:main:35 - label=LightGBM_Cross_ByJ
+2024-12-18 22:44:19.733 | INFO     | __main__:main:45 - embedding=w2v
+2024-12-18 22:44:20.321 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:32 - build dcm dataset cross
+2024-12-18 22:44:20.337 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:115 - done
+2024-12-18 22:44:20.347 | INFO     | __main__:main:124 - predict by product
+2024-12-18 22:52:35.259 | INFO     | __main__:main:214 - □
+2024-12-18 22:52:35.397 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cross by j`
+2024-12-18 22:52:35.404 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 22:52:35.404 | INFO     | __main__:main:31 - I=100
+2024-12-18 22:52:35.404 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 22:52:35.404 | INFO     | __main__:main:35 - label=LightGBM_Cross_ByJ
+2024-12-18 22:52:35.404 | INFO     | __main__:main:45 - embedding=w2v
+2024-12-18 22:52:36.054 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:32 - build dcm dataset cross
+2024-12-18 22:52:36.085 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:115 - done
+2024-12-18 22:52:36.103 | INFO     | __main__:main:124 - predict by product
+2024-12-18 23:00:53.407 | INFO     | __main__:main:214 - □
+2024-12-18 23:00:53.547 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cross by j`
+2024-12-18 23:00:53.554 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 23:00:53.554 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:00:53.554 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 23:00:53.554 | INFO     | __main__:main:35 - label=LightGBM_Cross_ByJ
+2024-12-18 23:00:53.554 | INFO     | __main__:main:45 - embedding=w2v
+2024-12-18 23:00:54.137 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:32 - build dcm dataset cross
+2024-12-18 23:00:54.154 | INFO     | modules.dcm_dataset_cross:build_dcm_dataset:115 - done
+2024-12-18 23:00:54.168 | INFO     | __main__:main:124 - predict by product
+2024-12-18 23:09:00.223 | INFO     | __main__:main:214 - □
+[2024-12-18 23:09:01] Running: python -m uplift.lightgbm-cat-cross-by-j -c configs/config.yaml -l bootstrap
+2024-12-18 23:09:02.261 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cat-cross by j`
+2024-12-18 23:09:02.267 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 23:09:02.267 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:09:02.267 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 23:09:02.267 | INFO     | __main__:main:35 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 23:09:02.267 | INFO     | __main__:main:46 - embedding=w2v
+2024-12-18 23:09:02.851 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:35 - build dcm dataset cat cross
+2024-12-18 23:09:02.902 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:136 - done
+2024-12-18 23:09:02.923 | INFO     | __main__:main:129 - predict by product
+/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+2024-12-18 23:17:05.930 | INFO     | __main__:main:221 - □
+2024-12-18 23:17:06.060 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cat-cross by j`
+2024-12-18 23:17:06.067 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 23:17:06.067 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:17:06.067 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 23:17:06.067 | INFO     | __main__:main:35 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 23:17:06.067 | INFO     | __main__:main:46 - embedding=w2v
+2024-12-18 23:17:06.646 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:35 - build dcm dataset cat cross
+2024-12-18 23:17:06.708 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:136 - done
+2024-12-18 23:17:06.718 | INFO     | __main__:main:129 - predict by product
+/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py:752: UserWarning: A worker stopped while some jobs were given to the executor. This can be caused by a too short worker timeout or by a memory leak.
+  warnings.warn(
+2024-12-18 23:25:16.154 | INFO     | __main__:main:221 - □
+2024-12-18 23:25:16.294 | INFO     | __main__:main:21 - Discount simulation `lightgbm-cat-cross by j`
+2024-12-18 23:25:16.301 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 23:25:16.301 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:25:16.301 | INFO     | __main__:main:32 - discount=0.3
+2024-12-18 23:25:16.301 | INFO     | __main__:main:35 - label=LightGBM_Cat_Cross_ByJ
+2024-12-18 23:25:16.301 | INFO     | __main__:main:46 - embedding=w2v
+2024-12-18 23:25:16.892 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:35 - build dcm dataset cat cross
+2024-12-18 23:25:16.969 | INFO     | modules.dcm_dataset_cat_cross:build_dcm_dataset:136 - done
+2024-12-18 23:25:16.980 | INFO     | __main__:main:129 - predict by product
+2024-12-18 23:33:21.911 | INFO     | __main__:main:221 - □
+[2024-12-18 23:33:22] Running: python -m uplift.dnn -c configs/config.yaml -l bootstrap -m model_010
+2024-12-18 23:33:24.253 | INFO     | __main__:main:18 - Discount simulation `dnn`
+2024-12-18 23:33:24.260 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 23:33:24.260 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:33:24.260 | INFO     | __main__:main:32 - t0=100
+2024-12-18 23:33:24.260 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 23:33:24.260 | INFO     | __main__:main:34 - model=model_010
+2024-12-18 23:33:24.260 | INFO     | __main__:main:35 - epoch=99
+2024-12-18 23:33:24.295 | INFO     | __main__:main:58 - J=250
+/Users/princess/Documents/RA/DeepNN/uplift/dnn.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  dnn_model.load_state_dict(torch.load(file_sd, map_location="cpu"))
+2024-12-18 23:33:29.033 | INFO     | __main__:main:187 - □
+2024-12-18 23:33:29.071 | INFO     | __main__:main:18 - Discount simulation `dnn`
+2024-12-18 23:33:29.077 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 23:33:29.077 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:33:29.077 | INFO     | __main__:main:32 - t0=100
+2024-12-18 23:33:29.077 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 23:33:29.077 | INFO     | __main__:main:34 - model=model_010
+2024-12-18 23:33:29.077 | INFO     | __main__:main:35 - epoch=99
+2024-12-18 23:33:29.090 | INFO     | __main__:main:58 - J=250
+/Users/princess/Documents/RA/DeepNN/uplift/dnn.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  dnn_model.load_state_dict(torch.load(file_sd, map_location="cpu"))
+2024-12-18 23:33:33.590 | INFO     | __main__:main:187 - □
+2024-12-18 23:33:33.629 | INFO     | __main__:main:18 - Discount simulation `dnn`
+2024-12-18 23:33:33.635 | INFO     | __main__:main:30 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 23:33:33.635 | INFO     | __main__:main:31 - I=100
+2024-12-18 23:33:33.635 | INFO     | __main__:main:32 - t0=100
+2024-12-18 23:33:33.635 | INFO     | __main__:main:33 - discount=0.3
+2024-12-18 23:33:33.635 | INFO     | __main__:main:34 - model=model_010
+2024-12-18 23:33:33.635 | INFO     | __main__:main:35 - epoch=99
+2024-12-18 23:33:33.648 | INFO     | __main__:main:58 - J=250
+/Users/princess/Documents/RA/DeepNN/uplift/dnn.py:93: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  dnn_model.load_state_dict(torch.load(file_sd, map_location="cpu"))
+2024-12-18 23:33:38.114 | INFO     | __main__:main:187 - □
+[2024-12-18 23:33:38] Running: python -m uplift.combine-prob-estimates -c configs/config.yaml -l bootstrap
+2024-12-18 23:33:38.950 | INFO     | __main__:main:15 - Combining probabilities for Probability Uplift
+2024-12-18 23:33:38.957 | INFO     | __main__:main:20 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 23:33:38.957 | INFO     | __main__:main:39 - suffix 0 = _logit_cross_by_j
+2024-12-18 23:33:38.957 | INFO     | __main__:main:39 - suffix 1 = _lightgbm_cross_by_j
+2024-12-18 23:33:38.957 | INFO     | __main__:main:39 - suffix 2 = _lightgbm_cat_cross_by_j
+2024-12-18 23:33:38.957 | INFO     | __main__:main:39 - suffix 3 = _dnn_model_010
+2024-12-18 23:33:38.957 | INFO     | uplift.lib:load_all_probs:55 - reference=_true
+2024-12-18 23:33:38.957 | INFO     | uplift.lib:load_all_probs:56 - load true
+2024-12-18 23:33:39.596 | INFO     | uplift.lib:load_all_probs:61 - load logit_cross_by_j
+2024-12-18 23:33:40.422 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cross_by_j
+2024-12-18 23:33:41.288 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cat_cross_by_j
+2024-12-18 23:33:42.172 | INFO     | uplift.lib:load_all_probs:61 - load dnn_model_010
+2024-12-18 23:33:44.669 | INFO     | __main__:main:15 - Combining probabilities for Probability Uplift
+2024-12-18 23:33:44.675 | INFO     | __main__:main:20 - path_data=/Users/princess/dnn-paper/final_001
+2024-12-18 23:33:44.675 | INFO     | __main__:main:39 - suffix 0 = _logit_cross_by_j
+2024-12-18 23:33:44.675 | INFO     | __main__:main:39 - suffix 1 = _lightgbm_cross_by_j
+2024-12-18 23:33:44.675 | INFO     | __main__:main:39 - suffix 2 = _lightgbm_cat_cross_by_j
+2024-12-18 23:33:44.675 | INFO     | __main__:main:39 - suffix 3 = _dnn_model_010
+2024-12-18 23:33:44.675 | INFO     | uplift.lib:load_all_probs:55 - reference=_true
+2024-12-18 23:33:44.675 | INFO     | uplift.lib:load_all_probs:56 - load true
+2024-12-18 23:33:45.257 | INFO     | uplift.lib:load_all_probs:61 - load logit_cross_by_j
+2024-12-18 23:33:46.064 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cross_by_j
+2024-12-18 23:33:46.918 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cat_cross_by_j
+2024-12-18 23:33:47.814 | INFO     | uplift.lib:load_all_probs:61 - load dnn_model_010
+2024-12-18 23:33:50.308 | INFO     | __main__:main:15 - Combining probabilities for Probability Uplift
+2024-12-18 23:33:50.314 | INFO     | __main__:main:20 - path_data=/Users/princess/dnn-paper/final_002
+2024-12-18 23:33:50.315 | INFO     | __main__:main:39 - suffix 0 = _logit_cross_by_j
+2024-12-18 23:33:50.315 | INFO     | __main__:main:39 - suffix 1 = _lightgbm_cross_by_j
+2024-12-18 23:33:50.315 | INFO     | __main__:main:39 - suffix 2 = _lightgbm_cat_cross_by_j
+2024-12-18 23:33:50.315 | INFO     | __main__:main:39 - suffix 3 = _dnn_model_010
+2024-12-18 23:33:50.315 | INFO     | uplift.lib:load_all_probs:55 - reference=_true
+2024-12-18 23:33:50.315 | INFO     | uplift.lib:load_all_probs:56 - load true
+2024-12-18 23:33:50.888 | INFO     | uplift.lib:load_all_probs:61 - load logit_cross_by_j
+2024-12-18 23:33:51.702 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cross_by_j
+2024-12-18 23:33:52.553 | INFO     | uplift.lib:load_all_probs:61 - load lightgbm_cat_cross_by_j
+2024-12-18 23:33:53.424 | INFO     | uplift.lib:load_all_probs:61 - load dnn_model_010
+[2024-12-18 23:33:55] Running: python -m results.run-benchmark -c configs/config.yaml -l bootstrap
+2024-12-18 23:33:57.009 | INFO     | __main__:main:23 - path_data=/Users/princess/dnn-paper/final_000
+2024-12-18 23:33:57.009 | INFO     | __main__:main:24 - seed=0
+2024-12-18 23:33:57.082 | WARNING  | __main__:main:45 - /Users/princess/dnn-paper/final_000/baselines/MXL_inventory.parquet does not exists (skipped)
+2024-12-18 23:33:57.152 | INFO     | __main__:main:60 - merge coupons
+2024-12-18 23:33:57.188 | INFO     | __main__:main:68 - build data subset indicators
+2024-12-18 23:33:57.246 | INFO     | __main__:main:131 - compute metrics
+2024-12-18 23:33:58.931 | INFO     | modules.scores:get_scores:73 - compute scores for for model LightGBM_Cross_ByJ
+2024-12-18 23:33:58.931 | INFO     | modules.scores:get_scores:73 - compute scores for for model p
+2024-12-18 23:33:58.944 | INFO     | modules.scores:get_scores:73 - compute scores for for model DNN
+2024-12-18 23:33:58.980 | INFO     | modules.scores:get_scores:73 - compute scores for for model LightGBM_Cat_Cross_ByJ
+2024-12-18 23:33:58.980 | INFO     | modules.scores:get_scores:73 - compute scores for for model BinaryLogit_Cross_ByJ
+joblib.externals.loky.process_executor._RemoteTraceback: 
+"""
+Traceback (most recent call last):
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 463, in _process_worker
+    r = call_item()
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/externals/loky/process_executor.py", line 291, in __call__
+    return self.fn(*self.args, **self.kwargs)
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 598, in __call__
+    return [func(*args, **kwargs)
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 598, in <listcomp>
+    return [func(*args, **kwargs)
+  File "/Users/princess/Documents/RA/DeepNN/modules/scores.py", line 89, in get_scores
+    "time-correlation": time_correlation(
+  File "/Users/princess/Documents/RA/DeepNN/modules/scores.py", line 47, in time_correlation
+    xsub = x[set(index_variables + ["t", variable1, variable2])].copy()
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/pandas/core/frame.py", line 3714, in __getitem__
+    check_dict_or_set_indexers(key)
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/pandas/core/indexing.py", line 2618, in check_dict_or_set_indexers
+    raise TypeError(
+TypeError: Passing a set as an indexer is not supported. Use a list instead.
+"""
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/Users/princess/Documents/RA/DeepNN/results/run-benchmark.py", line 152, in <module>
+    main(x=args.c, **params)
+  File "/Users/princess/Documents/RA/DeepNN/results/run-benchmark.py", line 133, in main
+    _benchmarking = Parallel(n_jobs=len(models))(
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 2007, in __call__
+    return output if self.return_generator else list(output)
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 1650, in _get_outputs
+    yield from self._retrieve()
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 1754, in _retrieve
+    self._raise_error_fast()
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 1789, in _raise_error_fast
+    error_job.get_result(self.timeout)
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 745, in get_result
+    return self._return_or_raise()
+  File "/Users/princess/anaconda3/envs/deepnn/lib/python3.8/site-packages/joblib/parallel.py", line 763, in _return_or_raise
+    raise self._result
+TypeError: Passing a set as an indexer is not supported. Use a list instead.
+[2024-12-18 23:33:59] Error: Command failed: python -m results.run-benchmark -c configs/config.yaml -l bootstrap

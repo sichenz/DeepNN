@@ -18,9 +18,7 @@ suppressMessages({
 })
 
 # python integration
-path_virtualenv = Sys.getenv("PATH_VIRTUALENV")
-sprintf("path_virtualenv = %s", path_virtualenv) %>% cat(fill=TRUE)
-use_virtualenv(path_virtualenv, required=TRUE)
+use_condaenv("deepnn", required=TRUE)
 pd = import("pandas", "pd")
 pq = import("pyarrow.parquet", "pq")
 
