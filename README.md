@@ -88,7 +88,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ## Run the Pipeline
 
-### Update and Run the `run.sh` Script
+### Update `config.sh` and Run the `run.sh` Script
 
 1. **Open the `config.sh` script in a text editor or on VSCode.**
 
