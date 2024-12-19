@@ -120,7 +120,7 @@ Follow these steps to set up DeepNN on your machine.
 
 ## Re-run the Program
 
-If you want to rerun the DeepNN program, you need to remove specific directories to reset the environment. Use the following commands:
+If you want to rerun the DeepNN program, you need to remove specific directories to reset the simulated data that you generated. Use the following commands:
    ```bash
    rm -rf ~/dnn-paper/final_000
    rm -rf ~/dnn-paper/final_001
