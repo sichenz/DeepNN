@@ -1,4 +1,0 @@
-# Gabel and Timoshenko (2021), "Product Choice with Large Assortments: A Scalable Deep-Learning Model." Management Science, Forthcoming
-
-export PATH_REPO=$HOME/product-choice-dnn
-export PATH_VIRTUALENV=$HOME/env-dnn
