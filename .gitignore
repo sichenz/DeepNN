@@ -1,0 +1,7 @@
+
+*.pyc
+paper/.DS_Store
+results/.DS_Store
+setup/.Rhistory
+.DS_Store
+empirical/.Rhistory
