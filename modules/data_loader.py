@@ -19,8 +19,7 @@ def to_torch_sparse(coo):
     i = torch.LongTensor(indices)
     v = torch.FloatTensor(values)
     shape = coo.shape
-    return torch.sparse.FloatTensor(i, v, torch.Size(shape))
-
+    return torch.sparse_coo_tensor(i, v, size=torch.Size(shape), dtype=torch.float32)
 
 class DatasetDNN(Dataset):
     def __init__(self, _y, _np, _bc, _pf):

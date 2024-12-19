@@ -90,7 +90,7 @@ def main(x, path_data, model, **kwargs):
         **experiment["params"],
     )
 
-    dnn_model.load_state_dict(torch.load(file_sd, map_location="cpu"))
+    dnn_model.load_state_dict(torch.load(file_sd, map_location="cpu", weights_only=True))
     _ = dnn_model.eval()
 
     dnn_trainer = modules.trainer.Trainer(

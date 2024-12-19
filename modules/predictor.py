@@ -68,7 +68,9 @@ def _predictor_core(
         state_dict = torch.load(
             f"{path_suffix}/results/state_dict_{epoch:08d}.pt",
             map_location=lambda storage, loc: storage,
+            weights_only=True,  # Explicitly use weights_only
         )
+
     dnn_model.load_state_dict(state_dict)
     _ = dnn_model.eval()
 

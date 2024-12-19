@@ -57,7 +57,7 @@ Before you begin, ensure you have the following installed on your system:
 3. **Navigate into the cloned repository:**
 
    ```bash
-   cd DeepNN
+   cd /Users/yourusername/path/to/DeepNN
    ```
 
 ## Install Necessary Python Packages
@@ -90,7 +90,7 @@ Before you begin, ensure you have the following installed on your system:
 
 ### Update and Run the `run.sh` Script
 
-1. **Open the `run.sh` script in a text editor or on VSCode.**
+1. **Open the `config.sh` script in a text editor or on VSCode.**
 
 2. **Locate the `cd` command in the script and update it to point to the absolute path of your cloned `DeepNN` repository.**
 
@@ -100,7 +100,7 @@ Before you begin, ensure you have the following installed on your system:
      cd /Users/yourusername/path/to/DeepNN
      ```
 
-3. **Save and close the `run.sh` script.**
+3. **Save and close the `config.sh` script.**
 
 4. **Make sure the `run.sh` script has execute permissions:**
 
