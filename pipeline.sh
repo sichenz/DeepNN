@@ -6,7 +6,7 @@
 CONFIG=configs/config.yaml
 LABEL=bootstrap
 FOLDER=paper
-cd /Users/princess/Downloads/product-choice-dnn-master
+cd /Users/princess/Documents/RA/DeepNN #change this
 
 ## Data preparation
 python -m data.simulated-data -d config-05  -c $CONFIG -l $LABEL
